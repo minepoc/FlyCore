@@ -24,7 +24,7 @@ Ktem.yml (Не final, но лучше не менять) - Core.ktemconfig
 Получение онлайна сервера - Ktem_Class.getOnlineServer("Название сервера в String")
 Ktem.yml (Не final, но лучше не менять) - Ktem_Class.ktemconfig
 Быстрый доступ к Ktem.yml - Ktem_Class.getKtemConf()
-Файлы локализаций (Также не в final) - Core.getConf(См *4)
+Файлы локализаций (Также не в final) - Ktem_Class.getConf(См *4)
 Общий онлайн всего сервера (Переменная int с авто обновлением) - Ktem_Class.GlobalOnline
 
 #Bukkit (API Ktem_Ktem)
@@ -40,7 +40,7 @@ Ktem.yml (Не final, но лучше не менять) - Ktem_Class.ktemconfig
 //Без API, т.к. не нуждается в нем на данный момент.
 
 
-Пометки:
+<*> Пометки:
 
 *1 - Столбик локализации, пример:
 TEST_KEY:
