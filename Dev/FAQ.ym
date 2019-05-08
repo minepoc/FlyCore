@@ -1,0 +1,115 @@
+Для кода (API).
+
+#Core
+Локализация - Core.sql.getLang("Ключ локализации. Поддерживается перенос строк См *3",Core.sql.getLang("Ник игрока в String")
+Локализация (Столбик, От Ktem_CorePlugin) - Ktem_Class.sendLang("Ключ столбика локализации. См *1",Core.sql.getLang("Ник игрока в String"),См *2)
+Ktem.yml (Не final, но лучше не менять) - Core.ktemconfig
+Быстрый доступ к Ktem.yml (От Ktem_CorePlugin) - Ktem_Class.getKtemConf()
+Файлы локализаций (Также не в final) - Core.getConf(См *4)
+Аннотация прослушивания (См *5) - @Ktem_Handler
+Регистрация команды - См *6
+Система ID - См *7
+Пакет на все прокси (Пример См *8) - Manager.sendToAllProxy(bytes в ByteArrayDataOutput)
+Подключенные прокси (В Map<String,Proxy>) - Proxy.connections
+Игроки в ядре (В Map<String,Player>) - PlayerData.getPlayers()
+Подключенные DataConnections (В Map<String,Data>) - Data.connections
+Подключенные MessagesConnections (В Map<String,Messages>) - Messages.connections
+Быстрая замена %s в String - String.format("Текст",То на что заменить любой формат,Второй текст если два %s,3-тий,и так далее)
+//Для получения всех используемых ReadPacket ID, напишите в vk.me/Ktem_Projects
+
+#Bukkit (API Ktem-Plugin)
+Локализация - Ktem_Class.getLang("Ключ локализации. Поддерживается перенос строк См *3",Core.sql.getLang("Ник игрока в String")
+Локализация (Столбик) - Ktem_Class.sendLang("Ключ столбика локализации. См *1",Core.sql.getLang("Ник игрока в String"),См *2)
+Сообщение в ActionBar - Ktem_Class.sendActionBar(Обычный Bukkit Player или ник игрока в String,"Текст")
+Получение онлайна сервера - Ktem_Class.getOnlineServer("Название сервера в String")
+Ktem.yml (Не final, но лучше не менять) - Ktem_Class.ktemconfig
+Быстрый доступ к Ktem.yml - Ktem_Class.getKtemConf()
+Файлы локализаций (Также не в final) - Core.getConf(См *4)
+Общий онлайн всего сервера (Переменная int с авто обновлением) - Ktem_Class.GlobalOnline
+
+#Bukkit (API Ktem_Ktem)
+Отправка пакета на сервер (В boolean & Try{}catch) - me.Ktem.Ktem_Core.Ktem_Class.sendMessageToCore("Название сервера в String","Тег для пакета, для определения пакета в String","Сообщение/данные в String")
+Основная отправка пакета изменения - me.Ktem.Ktem_Core.Ktem_Class.sendCore("Тип в String, <ban/unban/unmute/banip/mute/group/statics>","Ник игрока в String или данные","Данные в String #1","Данные в String #2")
+Отправка пакета в ядро - me.Ktem.Ktem_Core.Ktem_Class.sendOnly(bytes в ArrayDataOutput)
+Телепортация игрока на другой сервер (Поддержка рандома См *9) - Ktem_Core.redirect("Ник игрока в String","Сервер куда телепортировать в String")
+
+#Proxy
+//В основном не используется, т.к. для обновления/добавления/исправление бага нужна перезагрузка прокси, поэтому все убрано в ядро.
+
+#Auth
+//Без API, т.к. не нуждается в нем на данный момент.
+
+
+Пометки:
+
+*1 - Столбик локализации, пример:
+TEST_KEY:
+- 'test msg 1'
+- 'test msg 2'
+
+*2 - Игрок ядра (CorePlayer)
+Получить - Core.getServer().getPlayer("Ник игрока в String")
+
+*3 - Строка -> Столбик, пример:
+Строка:
+TEST_KEY: 'test text'
+Строка-столбик:
+TEST_KEY: |-
+ test text 1
+ test text 2
+ 
+ *4 - Формат int, см таблица ниже.
+ Таблица:
+(Язык | ID)
+Russian <|> 1
+English <|> 2
+Ukraine <|> 3
+Belorussian <|> 4
+Azerbaijani <|> 5
+Yaponskiy <|> 6
+
+*5 - Доступные евенты.
+
+CommandEvent - При написании команды (только ядра)
+PacketReadEvent - Прослушивание пакетов ядра
+PlayerChatEvent - При написании в чат во всех подключенных прокси (Отменение .setCancelled(true) поддерживается)
+PlayerJoinEvent - После входа игрока игрока, без учета авторизации (Отключен)
+PlayerLoginEvent - После добавления игрока в ядро, с учетом авторизации
+PlayerPreJoinEvent - При подключении игрока к серверу до загрузки данных (Отключен)
+PlayerProxyJoinEvent - При добавлении игрока в прокси, с учетом авторизации (Отключен)
+PlayerQuitEvent - При выходе игрока с сервера, с учетом авторизации
+PlayerRedirectEvent - При подключении игрока к другому серверу
+
+*6 - Добавление и регистрация команды.
+Пример:
+ new Command("test") {
+       public void execute(Player player,String[] args) {
+       player.sendMessage("test message for command test");return;
+     }
+ };
+
+*7 - Система ID
+*7.1 -> \|/
+Получение ID игрока - CoreServer.getIdPlayer("Ник игрока в String",См *7.1)
+Поиск игрока по ID - CoreServer.findIdPlayer(id в int)
+Если findIdPlayer null, ответ (String): §cНет данных
+
+*7.2 -> \|/
+Тип boolean, true - Загрузка игрока (SQL запрос) | false - Получение игрока из ядра
+Если null ответ (int): -1
+
+*8 - Пример отправки пакета в bytes
+
+Пример отправки сообщения всем игрокам:
+
+ByteArrayDataOutput out =ByteStreams.newDataOutput();
+out.writeInt(3); //ID пакета в int. Если id уже используется, то не будет виден. Используйте свои.
+out.writeUTF("test alert message"); // writeUTF - Текст в String который отправляете, также writeBoolean(true/false) - отправка boolean
+Manager.sendToAllProxy(out.toByteArray()); // Сама отправка пакета
+
+*9 - Поддержка рандома.
+
+Пример телепортации в Hub и BWLobby:
+
+Ktem_Core.redirect("Ktem","%hub%") //Игрок будет телепортирован в хаб от hub-1 до hub-6, в зависимости от доступности сервера
+Ktem_Core.redirect("Ktem","%bw%") //Игрок будет телепортирован в хаб от bwlobby-1 до bwlobby-2, в зависимости от доступности сервера
