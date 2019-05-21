@@ -4,6 +4,7 @@ SERVER: '§6Server §8| §f'
 SERVER_RESTART: 'Restarting...'
 SERVER_CLOSED_PLAYER_CONNECTION: '§6Server §8| §fServer §a%s §fshut down your connection, Your server is installed on §a%s'
 COMMAND_DOUBLE: '§6Server §8| §fPlease use the commands §cwithout the §fcolon'
+
 ENABLED: '§aEnabled'
 DISABLED: '§cDisabled'
 ENABLE: '§aEnable'
@@ -77,9 +78,9 @@ ELITE: '§aElite'
 
 SERVER_RESTARTING_BROADCAST: '§cBefore a restart remained, §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§6Server §8| §fServer from you current, restarted..'
-NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/FilkWorld"
+NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/FilkWorldNew"
 CORE_NO_FOUND_PLAYER_SERVER_MSG: '§6Server §8| §fError, you server not found in main core, you redirected to §a%s'
-CORE_NO_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/FilkWorld\n\n§fError code (§c%s§f)"
+CORE_NO_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/FilkWorldNew\n\n§fError code (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
 - '§6Server §8| §cProxy-server, на котором вы сейчас находились, был отключен от главного ядра.'
 - '§6Server §8| §fСейчас вам временно будут недоступны некоторые команды и переход между серверами.'
@@ -305,7 +306,8 @@ PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
 - '§6Повышение §8| §cПожалуйста отправьте скриншот этого сообщения в группу §a§nvk.com/Ktem_Projects§c для получения повышения.'
 - '§cДанная проверка сделана исключительно для вашей безопасности'
 
-AVAILABLE_SERVER_NOT_FOUND: '§6Server §8| §fНе удалось найти подходящий server'
+AVAILABLE_SERVER_NOT_FOUND:
+- '§6Server §8| §fНе удалось найти подходящий server'
 
 SERVER_NOT_AVAILABLE_GROUP: '§cError, вход доступен только для %s§c и выше'
 PLAYER_SERVER_ALREADY: '§6Server §8| §cYou already on current server!'
@@ -370,12 +372,12 @@ PERSONALUP_CONFIRM: '§cConfirm your key /personalup <key>'
 SERVER_LINKS:
 - '§7Server address: §eplay.filkworld.cf'
 - ''
-- '§7VK Group: §fvk.com/filkworld'
+- '§7VK Group: §fvk.com/FilkWorldNew'
 - ''
 - '§7Site: §fwww.filkworld.cf'
 - '§7Forum: §fforum.filkworld.cf'
 - ''
-- '§7Email: §dhappy_mc@list.ru'
+- '§7Email: §dktemprojects@mail.ru'
 
 REWARDS_1: '§fYou got §b%s§f %s:'
 REWARDS_2: '§7+§6%s§f %s'
@@ -390,7 +392,7 @@ ANS_USE_HOVER: '§fClick to, answered to player %s'
 REPORT_REASON_1: '1.4 (Advertising other resources)'
 REPORT_REASON_2: '1.3 (Flood)'
 REPORT_REASON_3: '1.5 (Попрашайнечество)'
-REPORT_REASON_4: '(Possibly account hacked, report vk.com/filkworld)'
+REPORT_REASON_4: '(Possibly account hacked, report vk.com/FilkWorldNew)'
 REPORT_REASON_5: '1.6 (Cheats)'
 
 SERVER_STOP: '§6Server §8| §fStopping server §a%s§f...'
@@ -431,7 +433,7 @@ MAIL_JOIN_REQUESTS: '§6Mail §8| §fYou have §e%s §funread emails §7(Click h
 MAIL_JOIN_HOVER: "§fClick here,\n§fto open mail list"
 
 MSG_TITLE: '§7Our Discord: §6discord.gg/fNQf4Dn'
-MSG_SUBTITLE: '§7Group: §cvk.com/filkworld'
+MSG_SUBTITLE: '§7Group: §cvk.com/FilkWorldNew'
 
 #En items
 ITEM_EXIT_NAME: '§eBack to lobby'
@@ -445,7 +447,7 @@ ITEM_START_LORE:
 ITEM_STAFFCHAT_NAME: '§eStaff chat'
 ITEM_STAFFCHAT_LORE:
  - '§7Allows you to enable or disable'
- - '§7Staff chat §f/sc'
+ - '§7Staffchat §f/sc'
  - '§7across the entire server'
  - ''
  - '§7Staff chat: %s'
@@ -709,6 +711,17 @@ API_CREATE:
  - ' '
 API_HOVER_MSG: '§6API §8| §fYour access key - §a%s §7(hover)'
 API_HOVER_COPY_MSG: '§fClick, to show the access key in the input field\n§fThen copy it (CTRL+A, CTRL+C)'
+API_HELP:
+ - '§6API §8| §fСписок команд:'
+ - '§7/api create §f- генерировать новый ключ доступа'
+ - '§7/api change <api-ключ> §f- изменить ключ доступа'
+ - '§7/api reset §f- удалить ключ доступа'
+ - '§7/api get §f- узнать ключ доступа'
+API_CHANGE_FORMAT: '/api change <api-ключ>'
+API_CHANGE_INCORRECT: '§6API §8| §cВ указанном Вами ключе %s, есть недопустимые символы. Можно использовать только цифры и буквы латинского алфавита'
+API_CHANGE_SUCCESS: '§6API §8| §fКлюч доступа успешно изменен на §a%s'
+API_RESET_SUCCESS: '§6API §8| §fКлюч доступа успешно удален'
+API_NOT_FOUND: '§6API §8| §cНа вашем аккаунте еще не создан ключ доступа, создайте его командой /api create'
 
 SPAWN_TELEPORT: '%sTeleporting on spawn...'
 
@@ -725,7 +738,7 @@ DEVELOPER_CREATE: |-
  §f to link: §5vk.me/ktem_projects§f, or forum a theme name,
  §f "§eMessage for developer§f".
   
- §f Also if want, sent message for server group §bvk.com/filkworld
+ §f Also if want, sent message for server group §bvk.com/FilkWorldNew
 DEVELOPER_ERROR: '§6Server §8| §fYour message have to contain more than §e3§f and less than §c100§f symbols'
 
 HELP_PAPER_FOR: '§e▸ Sub commands for %s:'
@@ -1085,7 +1098,7 @@ FRIEND_COMMAND_HELP:
  - '§7/friends reject <player name> §f- decline friend request from player'
  - '§7/friends requests §f- friend request list'
  - '§7/friends list §f- friend list'
- - '§7/friends chat <message> §f- send all message for your friends'
+ - '§7/fchat <message> §f- send all message for your friends'
  - '§7/friends tp <player name> §f- teleport to your friend server'
 FRIEND_NO_FRIENDS: "§cYou haven't got friends"
 FRIEND_NOTFRI: "§cPlayer %s §cisn't your friend"
@@ -1102,7 +1115,7 @@ FRIEND_ADD_ALREADY: '§cYou have already sent friend request to that player...'
 FRIEND_ADD_EXPIRED: '§cЗапрос, отправленный игроку %s§c был автоматически отклонен'
 FRIEND_ADD_EXPIRED_TO: '§6Friends §8| §fRequest for player %s§f был автоматически отклонен спустя 5 minute'
 
-FRIEND_CHAT_FORMAT: '/f chat <message>'
+FRIEND_CHAT_FORMAT: '/fchat <message>'
 FRIEND_CHAT: '§6Friends §8| §f%s §8» §7%s'
 FRIEND_CHAT_OFFLINE: "§cYou haven't got online friends"
 
@@ -1162,10 +1175,10 @@ BOX_BANNER_ALREADY: '§bLuckyChest §8| §fYou has already this banner, You get 
 BOX_STATS_ALREADY: '§bLuckyChest §8| §fYou has already this stats, You got §e+%s §f%s'
 BOX_BOOSTER_ALREADY: '§bLuckyChest §8| §fYou has already activated this booster, You got §5+%s §f%s'
 
-STAFFCHAT_MSG: '§eStaff chat §8| §f%s §8» §f%s'
+STAFFCHAT_MSG: '§eStaffchat §8| §f%s §8» §f%s'
 TESTERCHAT_MSG: '§6Testers chat §8| §f%s §8» §f%s'
 DONATECHAT_MSG: '§6Donate chat §8| §f%s §8» §7%s'
-STAFFCHAT_MARKIS_MSG: '§eStaff chat §8| §f%s §d✎ §f%s'
+STAFFCHAT_MARKIS_MSG: '§eStaffchat §8| §f%s §d✎ §f%s'
 
 SERVER_DISABLE_BROADCAST: '§6Server §8| %s§f отключил сервер ▬ §a%s'
 SERVER_RELOAD_BROADCAST: '§6Server §8| %s§f перезагрузил сервер ▬ §a%s'
@@ -1473,14 +1486,14 @@ UNBAN_NO: '§cPlayer %s, not blocked'
 UNMUTE_NO: '§cPlayer chat %s, not blocked'
 UNBANIP_NO: '§cIP address %s, not blocked'
 KICK_REASON: "§b§lFilk§a§lWorld§7\n\n§cВас выкинули с сервера\n\n§fДата: §7%s\n\n§fВы: %s\n§fКикнул: %s\n§fПричина: §7%s\n\n§fОбжаловатьнаказание можно на форуме:\n§b§nforum.filkworld.cf"
-BAN_NEVER_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.filkworld.cf"
-BAN_NEVER_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.filkworld.cf"
-BAN_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.filkworld.cf"
-BAN_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.filkworld.cf"
-BANIP_NEVER_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.filkworld.cf"
-BANIP_NEVER_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.filkworld.cf"
-BANIP_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.filkworld.cf"
-BANIP_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.filkworld.cf"
+BAN_NEVER_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
+BAN_NEVER_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
+BAN_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
+BAN_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
+BANIP_NEVER_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
+BANIP_NEVER_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
+BANIP_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
+BANIP_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
 MUTE_NEVER_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован навсегда за %s\n \n §7Заблокировал: %s\n\n §7Обжаловать наказание можно на форуме:\n §b§nforum.filkworld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
 MUTE_NEVER_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.filkworld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
 MUTE_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.filkworld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
@@ -1752,7 +1765,7 @@ BUY_THANKS: |-
  §fс помощью команды §d/rules
   
  §fЕсли у вас остались вопросы, можете обратиться в §n/ask§f;
- §fили в нашу группу сервера §9§nvk.me/filkworld
+ §fили в нашу группу сервера §9§nvk.me/FilkWorldNew
 BUY_NOT_STORE: "§cНа Ваш аккаунт не было приобретено ни одной привилегии;\nиспользуйте основной аккаунт, или приобретите привилегию на нашем сайте filkworld.cf;\nчтобы получить возможность создавать мульти-аккаунт"
 BUY_MAX_NOT_MULTIACCOUNT: "§cУ вас было создано максимальное количество доступных мулти-аккаунтов\nиспользуйте их, или приобретите привилегию на сайте filkworld.cf\nдля поднятия лимита на создание мульти-аккаунтов"
 BUY_MAX_MULTIACCOUNT: "§cВы исчерпали лимит создания мульти-аккаунтов!\nВаш доступный мульти-аккаунт для входа: %s"
@@ -2163,17 +2176,17 @@ MESSAGES_8_BROADCAST: "\n §8| §fХотите §dуникальные§f, ск�
 MESSAGES_8_HOVER_BROADCAST: "§fНажмите сюда для\n§fчтобы открыть меню"
 MESSAGES_7_BROADCAST: "\n §8| §fУ вас §cпроблемы§f или вы нашли какой-то §cбаг§f?\n §8| §fНапишите нам в группу §bvk.com/topic-155142790_38911037\n §8| §fи вам §aобязательно§f ответят в ближайшее время\n"
 MESSAGES_7_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_6_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/filkworld\n"
+MESSAGES_6_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/FilkWorldNew\n"
 MESSAGES_6_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_5_BROADCAST: "\n §8| §fХочешь обсудить свою §aпобеду§f или оспорить §cпроигрыш§f,\n §8| §fа может ты хочешь найти новых §eдрузей§f?\n §8| §fЗаходи на наш форум §dforum.filkworld.cf\n"
 MESSAGES_5_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_4_BROADCAST: "\n §8| §e✰ Конкурс ✰ §fГолосуй за сервер\n §8| §fпо ссылкам: §dmonitoringminecraft.ru/top/FilkWorld §fи §dmc-servera.ru/79129\n §8| §fПодробности в нашей группе §avk.com/filkworld\n"
+MESSAGES_4_BROADCAST: "\n §8| §e✰ Конкурс ✰ §fГолосуй за сервер\n §8| §fпо ссылкам: §dmonitoringminecraft.ru/top/FilkWorldNew §fи §dmc-servera.ru/79129\n §8| §fПодробности в нашей группе §avk.com/FilkWorldNew\n"
 MESSAGES_4_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_3_BROADCAST: "\n §8| §fЕсли вы увидели §cнарушителя§f или §cчитера§f, то\n §8| §fВоспользуйтесь командой §c/report <ник>\n §8| §fи вашу §eжалобу§f рассмотрят в режиме реального времени\n"
 MESSAGES_3_HOVER_BROADCAST: "§fНажмите сюда"
 MESSAGES_2_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6§lYouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dwww.filkworld.cf\n"
 MESSAGES_2_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_1_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/filkworld\n"
+MESSAGES_1_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/FilkWorldNew\n"
 MESSAGES_1_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 
 ECONOMY_MONEY_CHANGE_BROADCAST: '§6Экономика §8| %s§7 начислил на аккаунт %s§7 - §6Монеты §f(§a+%s§f)'
@@ -2762,12 +2775,12 @@ GUI_INFO_MESSAGES_LORE:
 GUI_INFO_LINKS_LORE:
 - '§7Server Address: §eplay.filkworld.cf'
 - ''
-- '§7VK community: §fvk.com/filkworld'
+- '§7VK community: §fvk.com/FilkWorldNew'
 - ''
 - '§7Site: §fwww.filkworld.cf'
 - '§7Forum: §fforum.filkworld.cf'
 - ''
-- '§7E-mail: §dhappy_mc@list.ru'
+- '§7E-mail: §dktemprojects@mail.ru'
 GUI_INFO_REWARD_LORE:
 - '§7Playing on server modes,'
 - '§7you can get coins and experience,'
@@ -2922,7 +2935,8 @@ GUI_SERVERS_TOTAL_LORE:
 GUI_SERVERS_TOTAL: '§eServers list'
 GUI_SERVERS_NAME: 'Servers list'
 GUI_GAMES_NAME: 'Game selection'
-GUI_GAMES_WIPE: ' §e§lСделали вайп'
+GUI_GAMES_WIPE: ' §e§lMade vipe'
+GUI_GAMES_BETA: ' §C§lBETA-TESTING'
 GUI_GAMES_DEVELOPMENT_1: '§c  In development'
 GUI_GAMES_DEVELOPMENT_2: '§c▶ In development'
 GUI_GAMES_DEVELOPMENT_3: '§c▶ In development.'
@@ -2941,7 +2955,7 @@ GUI_GAMES_SKYWARS_LORE:
 - '§7You do not have the right to make a mistake,'
 - '§71 step and you fly down.'
 - ''
-- '§7Рекомендуемая версия для игры: %s'
+- '§7Recomend version to game: %s'
 - ''
 - '§8On mode playing %s'
 - ''
@@ -2956,7 +2970,7 @@ GUI_GAMES_LUCKYWARS_LORE:
 - '§7a stupid trap. Way to success '
 - '§7one - survive!'
 - ''
-- '§7Рекомендуемая версия для игры: %s'
+- '§7Recomend version to game: %s'
 - ''
 - '§8On mode playing %s'
 - ''
@@ -2972,7 +2986,7 @@ GUI_GAMES_BEDWARS_LORE:
 - '§7On the map there will be only'
 - '§7One team.'
 - ''
-- '§7Рекомендуемая версия для игры: %s'
+- '§7Recomend version to game: %s'
 - ''
 - '§8On mode playing %s'
 - ''
@@ -2991,7 +3005,7 @@ GUI_GAMES_ANARCHY_LORE:
 - '§7This mode have not rules' 
 - '§7Well or almost..'
 - ''
-- '§7Рекомендуемая версия для игры: %s'
+- '§7Recomend version to game: %s'
 - ''
 - '§8On mode playing %s'
 - ''
@@ -3004,7 +3018,7 @@ GUI_GAMES_PARKOUR_LORE:
 - '§7time and compete with friends'
 - '§7on the passing maps.'
 - ''
-- '§7Рекомендуемая версия для игры: %s'
+- '§7Recomend version to game: %s'
 - ''
 - '§8On mode playing %s'
 - ''
@@ -3019,7 +3033,21 @@ GUI_GAMES_CREATIVE_LORE:
 - '§7for construction without regard for'
 - '§7health or hunger.'
 - ''
-- '§7Рекомендуемая версия для игры: %s'
+- '§7Recomend version to game: %s'
+- ''
+- '§8On mode playing %s'
+- ''
+- '%s'
+GUI_GAMES_FFA_LORE:
+- '§8PVP game'
+- ''
+- '§7The aim of the regime is the battle'
+- '§7with opponents to one, and also'
+- '§7with the team using available'
+- '§7sets. You can choose'
+- '§7and upgrade each on its own discretion.'
+- ''
+- '§7Recomend version to game: %s'
 - ''
 - '§8On mode playing %s'
 - ''
@@ -3037,6 +3065,7 @@ GUI_GAMES_BEDWARS: '§bBedWars'
 GUI_GAMES_ANARCHY: '§bAnarchy'
 GUI_GAMES_PARKOUR: '§bParkour'
 GUI_GAMES_CREATIVE: '§bCreative'
+GUI_GAMES_FFA: '§bFFA'
 GUI_GAMES_DONATE: '§bPrivileges'
 GUI_GAMES_LOBBY: '§bMain lobby'
 GUI_YOUTUBERS_NAME: 'Youtubers list'
@@ -3612,7 +3641,7 @@ GUI_REWARDS_4_LORE:
 - '§7а также других игровых ценностей'
 - ''
 - '§7Ссылки для голосования:'
-- ' §8• §amonitoringminecraft.ru/top/FilkWorld'
+- ' §8• §amonitoringminecraft.ru/top/FilkWorldNew'
 - ' §8• §amc-servera.ru/83002'
 - ''
 - ' §e▸ Получить награды можно в меню, командой /items'
