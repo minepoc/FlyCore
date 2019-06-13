@@ -37,12 +37,12 @@ BAN_REQUEST_REJECT: '%s §cDenied your request for a lock %s'
 
 BAN_REQUEST_FOR_PERSONAL:
  - "§cYou can't send a lock request to the server staff"
- - '§cДля этого exists discussion on group https://vk.com/topic-155142790_38895715'
+# - '§cДля этого exists discussion on group https://vk.com/topic-155142790_38895715'
 
 CONVERT_FORMAT: '/convert <валюта> <sum>'
 CONVERT_ERROR: '§cError, you must specify only a positive number!'
 CONVERT: '§6Shop §8| §fYou have successfully exchanged §e%s §f%s on §a%s §f%s'
-CONVERT_AVAILABLE: '§cError, available currencies: golds, ktems'
+CONVERT_AVAILABLE: '§cError, available currencies: golds'
 
 CORE_PROXY_CONNECTED: '§6Core §8| §fProxy §a%s§f §fsuccess§a connected§f from address §e%s'
 CORE_PROXY_CONNECTION_CLOSED: '§6Core §8| §fProxy §a%s§f §cdisconnected§f, of reason: §a%s'
@@ -75,28 +75,34 @@ SPONSOR: '§eSponsor'
 JDEVELOPER: '§5J. Dev.'
 DEVELOPER: '§5Developer'
 ELITE: '§aElite'
+GAMERPRO: '§5Gamer§6Pro'
+GAMER: '§5Gamer'
 
 SERVER_RESTARTING_BROADCAST: '§cBefore a restart remained, §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§6Server §8| §fServer from you current, restarted..'
-NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/FilkWorldNew"
+NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/flycore"
 CORE_NO_FOUND_PLAYER_SERVER_MSG: '§6Server §8| §fError, you server not found in main core, you redirected to §a%s'
-CORE_NO_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/FilkWorldNew\n\n§fError code (§c%s§f)"
+CORE_NO_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/flycore\n\n§fError code (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
-- '§6Server §8| §cProxy-server, на котором вы сейчас находились, был отключен от главного ядра.'
+- '§6Server §8| §cПрокси-сервер, на котором вы сейчас находились, был отключен от главного ядра.'
 - '§6Server §8| §fСейчас вам временно будут недоступны некоторые команды и переход между серверами.'
 - '§6Server §8| §fПросим набратся немного терпения и подождать, мы оповестим вас когда все стабилизируется :)'
+PROXY_CORE_LOST_CONNECTION_TITLE: '§c✗ Соединение потеряно §c✗'
+PROXY_CORE_LOST_CONNECTION_SUBTITLE: '§fПрокси-сервер был отключен от главного ядра'
 PROXY_RECONNECTED_PLAYER:
 - '§6Server §8| §fReconnected to server... [§a%s§f/§a%s§f]'
+PROXY_RECONNECTED_PLAYER_TITLE: '§6⚠ Выполняется переподключение. . '
+PROXY_RECONNECTED_PLAYER_SUBTITLE: '§fПожалуйста подождите'
+PROXY_RECONNECTED_PLAYER_SUCCESSFUL:
+- '§6Server §8| §fСоединение с прокси-сервером восстановлено.'
+- '§6Server §8| §fВы снова можете использовать команды и переход между серверами.'
+PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: '§a✔ Соединение восстановлено §a✔'
+PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: '§fКоманды и переход по серверам снова доступен'
 
 SECOND_0: 'second'
 SECOND_1: ''
 SECOND_2: ''
 SECOND_3: 's'
-
-KTEMS_0: 'ktem'
-KTEMS_1: ''
-KTEMS_2: ''
-KTEMS_3: 's'
 
 KEY_0: 'key'
 KEY_1: ''
@@ -198,25 +204,22 @@ COINS_ADD: '§6+%s'
 KEY_ADD: '§d+%s'
 XP_ADD: '§a+%s XP'
 EXP_ADD: '§3+%s EXP'
-KTEMS_ADD: '§5+%s'
 GOLDS_ADD: '§e+%s'
 DONATKEYS_ADD: '§b+%s'
 NULL_ADD: '§c+%s'
+FOOD_ADD: '§6+%s foods'
+HP_ADD: '§c+%s hp'
 
 EFFECTSHOP_EFFECT_NOT_LEVEL: '§cFor buying this effect, your need level §d%s§c or higher'
 EFFECTSHOP_SOUND_NOT_LEVEL: '§cFor buying this sound, your need level §d%s§c or higher'
 
-PLAYER_NO_KTEMS:
-- ''
-- '§6Server §8| §fОшибка! У вас недостаточно §5ktems§f для покупки! Купить немного ктемов можно на нашем сайте §dwww.filkworld.cf §7(жми)'
-- ''
 PLAYER_NO_MONEY:
 - ''
-- '§6Server §8| §fОшибка! У вас недостаточно §amoney§f для покупки! Купить еще монеток можно на нашем сайте §dwww.filkworld.cf §7(жми)'
+- '§6Server §8| §fОшибка! У вас недостаточно §amoney§f для покупки! Купить еще монеток можно на нашем сайте §dwww.flycore.ru §7(жми)'
 - ''
 PLAYER_NO_GOLD:
 - ''
-- '§6Server §8| §fОшибка! У вас недостаточно §6golds§f для покупки! Покупка золота осуществляется только на сайте §dwww.filkworld.cf §7(жми)'
+- '§6Server §8| §fОшибка! У вас недостаточно §6golds§f для покупки! Покупка золота осуществляется только на сайте §dwww.flycore.ru §7(жми)'
 - ''
 PLAYER_NO_LEVEL:
 - ''
@@ -224,7 +227,7 @@ PLAYER_NO_LEVEL:
 - ''
 PLAYER_NO_KEYS:
 - ''
-- '§6Server §8| §fОшибка! У вас недостаточно §dkeys§f для открытия! Покупка ключей осуществляется только на сайте §dwww.filkworld.cf §7(жми)'
+- '§6Server §8| §fОшибка! У вас недостаточно §dkeys§f для открытия! Покупка ключей осуществляется только на сайте §dwww.flycore.ru §7(жми)'
 - ''
 
 PLAYER_GADGETS_BANNER_NO_GROUP: '§cFor buying this banner, your need privilege %s§c or higher'
@@ -303,7 +306,7 @@ PLAYER_BOOST_YOUR_UP_COINS: '§7+§6%s §f%s'
 PLAYER_BOOST_YOUR_UP_EXP: '§7+§3%s §fEXP'
 PLAYER_BOOST_YOUR_UP_KEY: '§7+§d%s §f%s'
 PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
-- '§6Повышение §8| §cПожалуйста отправьте скриншот этого сообщения в группу §a§nvk.com/Ktem_Projects§c для получения повышения.'
+- '§6Повышение §8| §cПожалуйста отправьте скриншот этого сообщения в группу §a§nvk.me/flycore§c для получения повышения.'
 - '§cДанная проверка сделана исключительно для вашей безопасности'
 
 AVAILABLE_SERVER_NOT_FOUND:
@@ -364,25 +367,27 @@ SITESHOP_CREATIVE_MODE: 'Creative mode'
 SITESHOP_KIT_START: 'Kit start'
 SITESHOP_KIT_MEGA: 'Kit mega'
 SITESHOP_LUCKYCHEST: 'Default keys'
-SITESHOP_KTEMS: 'Ktems'
 SITESHOP_DONATKEY: 'Donate key'
 
 PERSONALUP_CONFIRM: '§cConfirm your key /personalup <key>'
 
 SERVER_LINKS:
-- '§7Server address: §eplay.filkworld.cf'
+- '§7Server address: §eplay.flycore.ru'
 - ''
-- '§7VK Group: §fvk.com/FilkWorldNew'
+- '§7VK Group: §fvk.com/flycore'
 - ''
-- '§7Site: §fwww.filkworld.cf'
-- '§7Forum: §fforum.filkworld.cf'
+- '§7Site: §fwww.flycore.ru'
+- '§7Forum: §fforum.flycore.ru'
 - ''
 - '§7Email: §dktemprojects@mail.ru'
 
 REWARDS_1: '§fYou got §b%s§f %s:'
 REWARDS_2: '§7+§6%s§f %s'
 REWARDS_3: '§7+§a%s§f EXP'
-REWARDS_4: '§7+§d%s§f %s'
+REWARDS_4: '§7+§d%s§f Косметических keys'
+REWARDS_5: '§7+§d%s§f Косметическо-игровых keys'
+REWARDS_6: '§7+§d%s§f Денежных keys'
+REWARDS_7: '§7+§e%s§f Golds'
 
 ANS_REASON: '1.16. (Offtopic)'
 ANS_REASON_MSG: 'Данный chat предназначен only для помощи player с адекватными question, помните это'
@@ -392,7 +397,7 @@ ANS_USE_HOVER: '§fClick to, answered to player %s'
 REPORT_REASON_1: '1.4 (Advertising other resources)'
 REPORT_REASON_2: '1.3 (Flood)'
 REPORT_REASON_3: '1.5 (Попрашайнечество)'
-REPORT_REASON_4: '(Possibly account hacked, report vk.com/FilkWorldNew)'
+REPORT_REASON_4: '(Possibly account hacked, report vk.com/flycore)'
 REPORT_REASON_5: '1.6 (Cheats)'
 
 SERVER_STOP: '§6Server §8| §fStopping server §a%s§f...'
@@ -403,7 +408,7 @@ LEVEL_NOT: '§cError, rewards can receive only 5 level or higher'
 REDIRECT_TO_SERVER: '§aTeleported to server %s'
 SERVER_QUEUE: '§aTeleported to server %s'
 
-TAB_HEADER: "§2§lFilk§3§lWorld §8(§2%sms§8)\n\n§fOnline-store:\n§ewww.filkworld.cf\n"
+TAB_HEADER: "§e§l§nFlyCore§8 (§2%sms§8)\n\n§fOnline-store:\n§ewww.flycore.ru\n"
 TAB_FOOTER: "\n§fYou are on the server:\n§e%s"
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
@@ -432,8 +437,9 @@ GUILD_JOIN_REQUESTS: '§6Guild §8| §fYou have §e%s §fmissed filings in the G
 MAIL_JOIN_REQUESTS: '§6Mail §8| §fYou have §e%s §funread emails §7(Click here)'
 MAIL_JOIN_HOVER: "§fClick here,\n§fto open mail list"
 
-MSG_TITLE: '§7Our Discord: §6discord.gg/fNQf4Dn'
-MSG_SUBTITLE: '§7Group: §cvk.com/FilkWorldNew'
+#§7Our Discord: §6discord.gg/
+MSG_TITLE: ''
+MSG_SUBTITLE: '§7Group: §cvk.com/flycore'
 
 #En items
 ITEM_EXIT_NAME: '§eBack to lobby'
@@ -526,7 +532,7 @@ TRAINING_PREFIX_HOVER: '   §8 -| §6§lTraining §8|-'
 TRAINING_PREFIX_HOVER_LANG: '   §8 -| §6§lLanguage §8|-'
 
 TRAINING_FIRST_TITLE: '§fWelcome %s'
-TRAINING_FIRST_SUBTITLE: '§7You are on the serverе: §2§lFilk§3§lWorld'
+TRAINING_FIRST_SUBTITLE: '§7You are on the serverе: §e§l§nFlyCore'
 
 #Stage 0
 TRAINING_STAGE_0_TITLE: '§fPlease look in the chat,'
@@ -584,7 +590,7 @@ TRAINING_STAGE_3_MSG_15_SUBTITLE: '§fтогда войдите в §2Профи
 TRAINING_STAGE_3_MSG_16_TITLE: '§fЕсли Вы хотите изменить цвет своего префикса,'
 TRAINING_STAGE_3_MSG_16_SUBTITLE: '§fтогда зайдите в §2Меню Донатера ▸ Префикс'
 TRAINING_STAGE_3_MSG_17_TITLE: '§fВам нравится сервер, или Вы хотите его поддержать?'
-TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dfilkworld.cf'
+TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dflycore.ru'
 TRAINING_STAGE_3_MSG_18_TITLE: ''
 TRAINING_STAGE_3_MSG_18_SUBTITLE: '§7И конечно самое главное...'
 TRAINING_STAGE_3_MSG_19_TITLE: '§fИнтересны §5разработки§f, или есть вопросы по плагинам§f/§6форуму§f?'
@@ -629,7 +635,6 @@ BOARD_NA: 'No select'
 BOARD_DISCORD: 'Discord'
 BOARD_POINTS: 'Points'
 BOARD_MONEY: 'Coins'
-BOARD_KTEMS: 'Ktems'
 BOARD_BALANCE: 'Balance'
 BOARD_LEVEL: 'Level'
 BOARD_BLOCK_BREAK: 'Blocks removed'
@@ -662,7 +667,7 @@ VERIFY_ALERT: '§cVerify your account -> /verify <code>'
 VERIFY_SUCCESS: '§6Verify §8| §fYou verifed your account, data updated'
 VERIFY_ERRORCODE: '§cError, code written wrong'
 VERIFY_INFO: '§cwritten wrong code'
-VERIFY_REASON: '§cError #18 Please report to group » §a§nvk.com/Ktem_Projects'
+VERIFY_REASON: '§cError #18 Please report to group » §a§nvk.me/flycore'
 VERIFY_ERROR_INFO: '%s §4was blocked'
 VERIFY_SESSION_REMOVE: '§6Verify §8| §fSession removed'
 VERIFY_UPDATED_BROADCAST: '§6Verify §8| %s§f updated dats his session'
@@ -735,10 +740,10 @@ DEVELOPER_CREATE: |-
  §6Server §8| §fYour message was send to server developer,
  §f If developer didn't answered it during one 1-2 days,
  §f You also may write message to developer group,
- §f to link: §5vk.me/ktem_projects§f, or forum a theme name,
+ §f to link: §5vk.me/flycore§f, or forum a theme name,
  §f "§eMessage for developer§f".
   
- §f Also if want, sent message for server group §bvk.com/FilkWorldNew
+ §f Also if want, sent message for server group §bvk.com/flycore
 DEVELOPER_ERROR: '§6Server §8| §fYour message have to contain more than §e3§f and less than §c100§f symbols'
 
 HELP_PAPER_FOR: '§e▸ Sub commands for %s:'
@@ -835,7 +840,6 @@ PLAYERINFO: |-
  §eInformation for player %s§e:
  §f- Player ID: §a%s
  §f- Rank: §a%s
- §f- Ktems: §a%s
  §f- Money: §a%s
  §f- Golds: §a%s
  §f- Player level: §a%s
@@ -979,7 +983,7 @@ CORE_STATS_INVALID: '§cYour indicated incorrent stats. Avainable stats: §fTest
 CORE_SETSTATS_FORMAT: '/core setstats <key> <name> <stats>'
 
 HACK_REASON: '§4Error #3 §cSuspicion of hacking'
-VZLOM_REASON: '§cError #14 Please, contact group » §a§nvk.com/Ktem_Projects'
+VZLOM_REASON: '§cError #14 Please, contact group » §a§nvk.me/flycore'
 DOWNLOAD_MAP_REASON: '§cError #19 §cПодозрение в скачивании карты'
 
 PARTY_ALREADY: '§6Party §8| §fYou are already in the group'
@@ -1154,7 +1158,6 @@ BOX_WINNER_OTHER: '§bLuckyChest §8| %s §fWon %s§f item %s'
 BOX_KEYS: '§dCosmetic keys §f(§6+%s§f)'
 BOX_EXP: '§eExperience §f(§a+%s§f)'
 BOX_MONEY: '§aCoins §f(§6+%s§f)'
-BOX_KTEMS: '§5Ktems §f(§4+%s§f)'
 BOX_GOLDS: '§eGolds §f(§a+%s§f)'
 BOX_DONATKEYS: '§3Donate keys §f(§b+%s§f)'
 BOX_MONEYKEYS: '§dMoney keys §f(§e+%s§f)'
@@ -1173,7 +1176,7 @@ BOX_EFFECT_ALREADY: '§bLuckyChest §8| §fYou has already this effect, You get 
 BOX_HAT_ALREADY: '§bLuckyChest §8| §fYou has already this hat, You get §6+%s §f%s'
 BOX_BANNER_ALREADY: '§bLuckyChest §8| §fYou has already this banner, You get §6+%s §f%s'
 BOX_STATS_ALREADY: '§bLuckyChest §8| §fYou has already this stats, You got §e+%s §f%s'
-BOX_BOOSTER_ALREADY: '§bLuckyChest §8| §fYou has already activated this booster, You got §5+%s §f%s'
+BOX_BOOSTER_ALREADY: '§bLuckyChest §8| §fYou has already activated this booster, You got §e+%s §f%s'
 
 STAFFCHAT_MSG: '§eStaffchat §8| §f%s §8» §f%s'
 TESTERCHAT_MSG: '§6Testers chat §8| §f%s §8» §f%s'
@@ -1244,9 +1247,9 @@ GUILD_COMMAND_MODER_HELP:
  - '§7/guild mute §f- mute player'
  - '§7/guild unmute §f- unmute player'
  - '§7/guild donateinfo <nickname> §f- information about payed coins by the player'
+GUILD_COMMAND_DEPUTY_HELP:
  - '§7/guild sethome §f- set guild home'
  - '§7/guild delhome §f- remove guild home'
-GUILD_COMMAND_DEPUTY_HELP:
  - '§7/guild shop §f- open guild shop'
  - '§7/guild tag <тег> §f- set guild tag'
  - '§7/guild party §f- put together the guild group'
@@ -1332,7 +1335,7 @@ GUILD_MOTD_COMMAND_HELP:
 - '§7/guild motd set <greeting> §f- set motd of guild'
 GUILD_MOTD_INFO: '§6Guild §8| §fGuild greeting:'
 GUILD_MOTD_SET_FORMAT: '/guild motd set <greeting>'
-GUILD_MOTD_SET_ALERT: '§2Guild §8| §fPlayer %s §fupdated the guild greeting'
+GUILD_MOTD_SET_ALERT: '§2Guild §8| §fPlayer %s §fupdated the guild greeting to: §d%s'
 GUILD_MOTD_SET: '§6Guild §8| §fGuild greeting changed to §a%s'
 
 GUILD_LEADER_FORMAT: '/guild leader <player name>'
@@ -1437,7 +1440,7 @@ PERSONALUP_KEY_REASON: '§4Error #23 §cWritten no valid key.'
 
 DISABLE_COMMAND_IN_GAME: '%s§cThis feature is disabled'
 
-STAFFRULES_NEW: '§fНовее rules можете find this -> §aforum.filkworld.cf/staffrules'
+STAFFRULES_NEW: '§fНовее rules можете find this -> §aforum.flycore.ru/staffrules'
 BAN_INFO_NO: '§cPlayer %s not punishment'
 BAN_NAME_1: 'Blocked chat'
 BAN_NAME_2: 'Blocked chat'
@@ -1485,19 +1488,19 @@ BAN_ME: '§cВы не можете наказать yourself'
 UNBAN_NO: '§cPlayer %s, not blocked'
 UNMUTE_NO: '§cPlayer chat %s, not blocked'
 UNBANIP_NO: '§cIP address %s, not blocked'
-KICK_REASON: "§b§lFilk§a§lWorld§7\n\n§cВас выкинули с сервера\n\n§fДата: §7%s\n\n§fВы: %s\n§fКикнул: %s\n§fПричина: §7%s\n\n§fОбжаловатьнаказание можно на форуме:\n§b§nforum.filkworld.cf"
-BAN_NEVER_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
-BAN_NEVER_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
-BAN_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
-BAN_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш аккаунт временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
-BANIP_NEVER_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
-BANIP_NEVER_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
-BANIP_NEW_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
-BANIP_REASON: "§b§lFilk§a§lWorld§7\n\n§cВаш IP адрес временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно в группе:\n§b§nvk.com/FilkWorldNew"
-MUTE_NEVER_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован навсегда за %s\n \n §7Заблокировал: %s\n\n §7Обжаловать наказание можно на форуме:\n §b§nforum.filkworld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-MUTE_NEVER_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.filkworld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-MUTE_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.filkworld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-MUTE_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату заблокирован за %s\n \n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.filkworld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+KICK_REASON: "§e§l§nFlyCore§7\n\n§cВас выкинули с сервера\n\n§fДата: §7%s\n\n§fВы: %s\n§fКикнул: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BAN_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BAN_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BAN_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BAN_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BANIP_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BANIP_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BANIP_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BANIP_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+MUTE_NEVER_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован навсегда за %s\n \n §7Заблокировал: %s\n\n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+MUTE_NEVER_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+MUTE_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+MUTE_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату заблокирован за %s\n \n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
 BAN_INFO: '§cModeration §8| %s§7 blocked player §e%s§7 from reason: §e%s'
 BAN_TIME_INFO: '§cModeration §8| %s§7 blocked player §e%s§7 on %s§7from reason: §e%s'
 BANIP_INFO: '§cModeration §8| %s §7blocked IP address §a%s§7 from reason: §e%s'
@@ -1567,10 +1570,10 @@ YOU_CANT_ASK_QUESTIONS: '§6Question §8| §fYou можете only answered to q
 ANS_SENT: '§6Answer §8| §fYou answered %s'
 ANS_HOVER: '§7На вопрос: §a%s\n\n§fClick to written,\nmessage player %s'
 ANS_MSG: |-
- §6Question §8| §fНа Ваш вопрос %s %s
+ §6Question §8| §fНа You вопрос %s %s
   §a• §fСообщение: §e%s
 ANS_JOIN_MSG: |-
- §6Question §8| §fПока вы были оффлайн, на Ваш вопрос %s %s
+ §6Question §8| §fПока вы были оффлайн, на You вопрос %s %s
   §a• §fСообщение: §e%s
 ANS_LIMIT: '§6Question §8| §fYour answer должен содержать не менее §e1§f symbols'
 ANS_NO: '§cError, игрок %s §cне задавал вопрос или ему уже ответили'
@@ -1608,7 +1611,7 @@ WHOIS_OFFLINE: |-
  §f - Language: §c%s
  §f - Server data: §c%s
 RULES: '§6Server §8| §fFull list of server rules -'
-RULES_2: '§dhttp://forum.filkworld.cf/rules'
+RULES_2: '§dhttp://forum.flycore.ru/rules'
 RULES_HOVER: '§fClick here,\n§fto open url'
 
 FIREWORK: '§aFirework!'
@@ -1702,7 +1705,7 @@ TRAINING_SKIP_MSG_15_SUBTITLE: '§fтогда войдите в §2Профил�
 TRAINING_SKIP_MSG_16_TITLE: '§fЕсли Вы хотите прочитать информацию о сервере,'
 TRAINING_SKIP_MSG_16_SUBTITLE: '§fтогда зайдите в §2Профиль ▸ Информация'
 TRAINING_SKIP_MSG_17_TITLE: '§fВам понравился сервер, или Вы хотите его поддержать?'
-TRAINING_SKIP_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dwww.filkworld.cf'
+TRAINING_SKIP_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dwww.flycore.ru'
 TRAINING_SKIP_MSG_18_TITLE: ''
 TRAINING_SKIP_MSG_18_SUBTITLE: '§7И конечно самое главное...'
 TRAINING_SKIP_MSG_19_TITLE: '§fИнтересны §5разработки§f, или есть вопросы по плагинам§f/§6форуму§f?'
@@ -1748,11 +1751,9 @@ SERVER_BROADCAST: '§6Server §8| %s §fteleported to your server'
 TIME: '§6Server §8| §fTime spent on the server - §a%s'
 TIME_TO: '§6Server §8| §fPlayer %s§f played - §a%s§f time of server'
 
-KTEMS: '§6Ktems §8| §fYou have §a%s §f%s'
-
 MONEY: '§6Баланс §8| §fYou have §a%s §f%s'
 
-BUY_BROADCAST: '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n               §c§lWARNING!\n    §fPlayer %s §fподдержал нас!\n    §bThank of buying %s\n    §fХочешь помочь? §6filkworld.cf §7[click]\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+BUY_BROADCAST: '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n               §c§lWARNING!\n    §fPlayer %s §fподдержал нас!\n    §bThank of buying %s\n    §fХотите помочь? §6flycore.ru §7[click]\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 BUY_THANKS: |-
  §6Server §8| §fThank за приобритение привилегии %s
  §fна нашем сервере. Теперь Вам открыты новые возможности;
@@ -1765,18 +1766,18 @@ BUY_THANKS: |-
  §fс помощью команды §d/rules
   
  §fЕсли у вас остались вопросы, можете обратиться в §n/ask§f;
- §fили в нашу группу сервера §9§nvk.me/FilkWorldNew
-BUY_NOT_STORE: "§cНа Ваш аккаунт не было приобретено ни одной привилегии;\nиспользуйте основной аккаунт, или приобретите привилегию на нашем сайте filkworld.cf;\nчтобы получить возможность создавать мульти-аккаунт"
-BUY_MAX_NOT_MULTIACCOUNT: "§cУ вас было создано максимальное количество доступных мулти-аккаунтов\nиспользуйте их, или приобретите привилегию на сайте filkworld.cf\nдля поднятия лимита на создание мульти-аккаунтов"
+ §fили в нашу группу сервера §9§nvk.me/FlyCore
+BUY_NOT_STORE: "§cНа Ваш аккаунт не было приобретено ни одной привилегии;\nиспользуйте основной аккаунт, или приобретите привилегию на нашем сайте flycore.ru;\nчтобы получить возможность создавать мульти-аккаунт"
+BUY_MAX_NOT_MULTIACCOUNT: "§cУ вас было создано максимальное количество доступных мулти-аккаунтов\nиспользуйте их, или приобретите привилегию на сайте flycore.ru\nдля поднятия лимита на создание мульти-аккаунтов"
 BUY_MAX_MULTIACCOUNT: "§cВы исчерпали лимит создания мульти-аккаунтов!\nВаш доступный мульти-аккаунт для входа: %s"
 
 BUY_HOVER_BROADCAST: '§fClick here\n§fto transition link'
 
-PLAYER_IS_BANNED: '§cError #5, Please made screenshot, and report for vk.com/Ktem_Projects'
+PLAYER_IS_BANNED: '§cError #5, Please made screenshot, and report for vk.me/flycore'
 
 ALERT_FORMAT: '/alert <message>'
 
-KTEMSPY_COMMAND_HELP: |-
+SPY_COMMAND_HELP: |-
  §6Spy §8| §fCommands list:
  §7/spy on §f- enable слежку
  §7/spy off §f- disable слежку
@@ -1987,7 +1988,7 @@ PARKOUR_MODULE: '§6Parkour §8| §fModule §e%s§7/§a%s§f achieved'
 PARKOUR_MODULE_ALREADY: '§6Parkour §8| §cYou already passed this module'
 PARKOUR_MODULE_NO: "§6Parkour §8| §cYou didn't pass the modeule"
 
-NO_PERMISSION_STATS: '§cError, view statistic other players can only §f§lGOLEM§c or higher'
+NO_PERMISSION_STATS: '§cError, view statistic other players can only §b§lDIAMOND§c or higher'
 
 STAFFCHAT_ENABLED: '§cModeration §8| §f%s §7now sees staff chat'
 STAFFCHAT_DISABLED: '§cModeration §8| §f%s §7is no longer see staff chat'
@@ -2104,22 +2105,22 @@ AUTH_EMAIL_INFO: '§c⚠ Warning! §fYou did not bind §cemail §fto your accoun
 AUTH_EMAIL_INFO_HOVER: "§fClick here,\nto add mail"
 AUTH_REGISTER_CONFIRM_INFO: '§6You successfully registered! §fYour current password §7(hover here)'
 AUTH_REGISTER_CONFIRM_INFO_HOVER: "§fPassword - §a%s\n\n§fRemember it or made\nscreenshot, to not forget - §ckey F2"
-AUTH_LOGIN_TITLE: '§b§lFilk§a§lWorld.cf'
+AUTH_LOGIN_TITLE: '§e§l§nFlyCore.ru'
 AUTH_LOGIN_SUBTITLE: '§7For continuation register'
-AUTH_REGISTER_TITLE: '§b§lFilk§a§lWorld.cf'
+AUTH_REGISTER_TITLE: '§e§l§nFlyCore.ru'
 AUTH_REGISTER_SUBTITLE: '§7For continuation log in'
 AUTH_NAME_SHORT: '§cNickname lhas to be more than 3 and less than 16 characters'
 AUTH_NAME_LIMIT: "§cYou can't use nickname with more than 16 characters!"
 AUTH_NAME_INCORRECT: "§cThere are unacceptable characters in the nickname \n\n§cAllow to use only numbers and latin alphabet symbols"
 AUTH_BANNED: "§cThis Ip was banned for §e10 §cminutes \n§cSuspicion of hacking :/"
-AUTH_LOAD_ERROR: '§cError #2, contact vk.com/Ktem_Projects'
-AUTH_SERVERS_NOT_AVAILABLE: '§cAuthorization servers is not availables, Contact vk.com/Ktem_Projects'
+AUTH_LOAD_ERROR: '§cError #2, contact vk.me/flycore'
+AUTH_SERVERS_NOT_AVAILABLE: '§cAuthorization servers is not availables, Contact vk.me/flycore'
 AUTH_ACCOUNT_PROTECTED: "§cThis account isn't your"
 FORUM_INFO: '§c⚠ Warning! §fYou already register §cin forum§f, do this right now - §e/forum'
 FORUM_INFO_HOVER: "§fClick here,\nto registred from forum"
 TFA_INFO: "§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §e/api"
 TFA_INFO_HOVER: "§fClick here,\nto activate two-factor authentication"
-TFA_LOGIN_TITLE: '§b§lFilk§a§lWorld.cf'
+TFA_LOGIN_TITLE: '§e§l§nFlyCore.ru'
 TFA_LOGIN_SUBTITLE: '§7For continuation identification'
 TFA_LOGIN_INFO: '§7Log in - §e/tfa §f[§eapi-ключ§f]'
 TFA_FORMAT: '/tfa <api-key>'
@@ -2132,8 +2133,8 @@ FORUM_ACCOUNT_REGISTRED: |-
  §7• §fLogin: §a%s
  §7• §fPassword: §a%s
  
- §fLogin may on: §6forum.filkworld.cf
-FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to forum.filkworld.cf'
+ §fLogin may on: §6forum.flycore.ru
+FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to forum.flycore.ru'
 
 BETATEST_CHAT: |-
  §cThis in monent, nothing testing
@@ -2146,11 +2147,11 @@ NEWS_PARKOUR: '§fNew §bLuckyChest'
 NEWS_CREATIVE: '§fNew §bLuckyChest'
 NEWS_ANARCHY: '§fNew §bLuckyChest'
 
-MESSAGES_21_BROADCAST: "\n §8| §fВсе арены §cпереполнены§f, не хватает слотов?\n §8| §fПриобретите §e§lGOLD§f на сайте §dwww.filkworld.cf\n §8| §fи данная проблема будет решена\n"
+MESSAGES_21_BROADCAST: "\n §8| §fВсе арены §cпереполнены§f, не хватает слотов?\n §8| §fПриобретите §e§lGOLD§f на сайте §dwww.flycore.ru\n §8| §fи данная проблема будет решена\n"
 MESSAGES_21_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_20_BROADCAST: "\n §8| §fПокупай §e§lGOLD§f по очень §dпривлекательной§f цене\n §8| §fУже с ней вы получите достойное количество §eвозможностей\n §8| §fкоторые сделают вашу игру §aинтереснее\n"
 MESSAGES_20_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_19_BROADCAST: "\n §8| §fПривилегия §a§lEMERALD§f дает большое\n §8| §fколичество §bбонусов§f и §eвозможностей§f за умеренную цену.\n §8| §fЗаинтересовало? Покупай на сайте §dwww.filkworld.cf\n"
+MESSAGES_19_BROADCAST: "\n §8| §fПривилегия §a§lEMERALD§f дает большое\n §8| §fколичество §bбонусов§f и §eвозможностей§f за умеренную цену.\n §8| §fЗаинтересовало? Покупай на сайте §dwww.flycore.ru\n"
 MESSAGES_19_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_18_BROADCAST: "\n §8| §fДля того, чтобы играть с друзьями\n §8| §fдостаточно просто написать команду §c/party <ник>\n §8| §fИ всех игроков будет перемещать за лидером\n"
 MESSAGES_18_HOVER_BROADCAST: "§fНажмите сюда"
@@ -2158,15 +2159,15 @@ MESSAGES_17_BROADCAST: "\n §8| §fНа сервере есть много ра�
 MESSAGES_17_HOVER_BROADCAST: "§fНажмите сюда для\n§fчтобы открыть меню"
 MESSAGES_16_BROADCAST: "\n §8| §5§lENDERMAN§f - лучшая привилегия сервера,\n §8| §fсочетает в себе максимальное количество\n §8| §eвозможностей§f и §dбонусов§f для комфортной игры\n"
 MESSAGES_16_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_15_BROADCAST: "\n §8| §f§a§lEMERALD§f - самая популярная привилегия\n §8| §fкоторая сочетает в себе §aоптимальную цену§f и\n §8| §eвозможности§f, покупка на сайте §dwww.filkworld.cf\n"
+MESSAGES_15_BROADCAST: "\n §8| §f§a§lEMERALD§f - самая популярная привилегия\n §8| §fкоторая сочетает в себе §aоптимальную цену§f и\n §8| §eвозможности§f, покупка на сайте §dwww.flycore.ru\n"
 MESSAGES_15_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_14_BROADCAST: "\n §8| §fВы уже купили §eдонат§f, а теперь хотите статус §bповыше§f?\n §8| §CТолько у нас§f вы можете приобрести новую\n §8| §fпривилегию с доплатой на сайте §dwww.filkworld.cf\n"
+MESSAGES_14_BROADCAST: "\n §8| §fВы уже купили §eдонат§f, а теперь хотите статус §bповыше§f?\n §8| §CТолько у нас§f вы можете приобрести новую\n §8| §fпривилегию с доплатой на сайте §dwww.flycore.ru\n"
 MESSAGES_14_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_13_BROADCAST: "\n §8| §fЕсли вы увидели §cнарушителя§f или §cчитера§f, то\n §8| §fВоспользуйтесь командой §c/report <ник>\n §8| §fи вашу §eжалобу§f рассмотрят в режиме реального времени\n"
 MESSAGES_13_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_12_BROADCAST: "\n §8| §C⚠ Внимание §fХотите сменить скин?\n §8| §fДля §a§lEMERALD§f и выше доступна\n §8| §fкоманда §c/skin <ник игрока со скином>\n"
+MESSAGES_12_BROADCAST: "\n §8| §C⚠ Внимание §fХотите узнать чужую статистику?\n §8| §fДля §b§lDIAMOND§f и выше доступна\n §8| §fкоманда §c/stats <ник игрока>\n"
 MESSAGES_12_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_11_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6§lYouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dwww.filkworld.cf\n"
+MESSAGES_11_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6§lYouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dwww.flycore.ru\n"
 MESSAGES_11_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_10_BROADCAST: "\n §8| §fХотите обеспечить §aбезопасность§f своему аккаунту?\n §8| §fТогда привяжите его к вашей почте\n §8| §fкомандой §c/email add <почта> <повтор почты>\n"
 MESSAGES_10_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
@@ -2176,21 +2177,22 @@ MESSAGES_8_BROADCAST: "\n §8| §fХотите §dуникальные§f, ск�
 MESSAGES_8_HOVER_BROADCAST: "§fНажмите сюда для\n§fчтобы открыть меню"
 MESSAGES_7_BROADCAST: "\n §8| §fУ вас §cпроблемы§f или вы нашли какой-то §cбаг§f?\n §8| §fНапишите нам в группу §bvk.com/topic-155142790_38911037\n §8| §fи вам §aобязательно§f ответят в ближайшее время\n"
 MESSAGES_7_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_6_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/FilkWorldNew\n"
+MESSAGES_6_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/flycore\n"
 MESSAGES_6_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_5_BROADCAST: "\n §8| §fХочешь обсудить свою §aпобеду§f или оспорить §cпроигрыш§f,\n §8| §fа может ты хочешь найти новых §eдрузей§f?\n §8| §fЗаходи на наш форум §dforum.filkworld.cf\n"
+MESSAGES_5_BROADCAST: "\n §8| §fХотите обсудить свою §aпобеду§f или оспорить §cпроигрыш§f,\n §8| §fа может ты Хотите найти новых §eдрузей§f?\n §8| §fЗаходи на наш форум §dforum.flycore.ru\n"
 MESSAGES_5_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_4_BROADCAST: "\n §8| §e✰ Конкурс ✰ §fГолосуй за сервер\n §8| §fпо ссылкам: §dmonitoringminecraft.ru/top/FilkWorldNew §fи §dmc-servera.ru/79129\n §8| §fПодробности в нашей группе §avk.com/FilkWorldNew\n"
-MESSAGES_4_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
+#MESSAGES_4_BROADCAST: "\n §8| §e✰ Конкурс ✰ §fГолосуй за сервер\n §8| §fпо ссылкам: §dmonitoringminecraft.ru/top/FilkWorldNew §fи §dmc-servera.ru/79129\n §8| §fПодробности в нашей группе §avk.com/flycore\n"
+#MESSAGES_4_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
+MESSAGES_4_BROADCAST: "\n §8| §fПоявились §eвопросы§f, на которые Вы §cне знаете ответ?\n §8| §fНапишите команду §c/ask <ваш вопрос>\n §8| §aОнлайн администрация§f поможет Вам §bв реальном времени\n"
+MESSAGES_4_HOVER_BROADCAST: "§fНажмите сюда"
 MESSAGES_3_BROADCAST: "\n §8| §fЕсли вы увидели §cнарушителя§f или §cчитера§f, то\n §8| §fВоспользуйтесь командой §c/report <ник>\n §8| §fи вашу §eжалобу§f рассмотрят в режиме реального времени\n"
 MESSAGES_3_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_2_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6§lYouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dwww.filkworld.cf\n"
+MESSAGES_2_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6§lYouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dwww.flycore.ru\n"
 MESSAGES_2_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_1_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/FilkWorldNew\n"
+MESSAGES_1_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/flycore\n"
 MESSAGES_1_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 
 ECONOMY_MONEY_CHANGE_BROADCAST: '§6Экономика §8| %s§7 начислил на аккаунт %s§7 - §6Монеты §f(§a+%s§f)'
-ECONOMY_KTEMS_CHANGE_BROADCAST: '§6Экономика §8| %s§7 начислил на аккаунт %s§7 - §5Ктемы §f(§a+%s§f'
 ECONOMY_GOLDS_CHANGE_BROADCAST: '§6Экономика §8| %s§7 начислил на аккаунт %s§7 - §eКристаллы §f(§a+%s§f)'
 
 LAST_UPDATES_INFO: '§c⚠ Warning §6Updates §8| §fБыло сделано §a%s§f %s'
@@ -2219,7 +2221,25 @@ LUCKYWARS_TELEPORTED_TO: '§fТелепортация на §a%s'
 LUCKYWARS_SETLOCATION: '§fТочка §a%s§f установленна'
 LUCKYWARS_GAME_ALREADY_STARTED: '§cИгра уже запущена'
 
-QUESTION_MSG_INFO: "\n§6Questions §8| §fХочешь получить §6монеты§f, §5ктемы§f или §eзолото?\n§fТогда реши простой пример,\n§fи получи шанс получить §5ктемы§f, §6монеты§f, или даже §eзолото§f!\n\n§fСколько будет §6%s§f*§6%s§f = §a/goto <ваш ответ> §7(наведи сюда)\n"
+TRADE_FORMAT: '/trade <ник игрока>'
+TRADE_HELP:
+- '§7/trade <ник> §f- предложить обмен'
+- '§7/trade accept §f- принять обмен'
+TRADE_ERROR_YOU: '§cВы не можете обмениваться сам с собой'
+TRADE_ERROR: '§6Trade §8| §fС вами еще никто не хотел поменяться'
+TRADE_ERROR2: '§6Trade §8| §fИгрок %s§f, который с вами хотел обменятся вышел'
+TRADE_BROKEN: '§6Trade §8| §fЧто-то пошло не так, обмен был прерван'
+TRADE_START_ALREADY: '§6Trade §8| §fВы уже предложили обмен данному игроку'
+TRADE_START_YOU: '§6Trade §8| §fВы успешно предложили обмен игроку %s'
+TRADE_START: '§6Trade §8| §fИгрок %s§f предложил обмен. Принять обмен - §a/trade accept'
+TRADE_FINISH: '§6Trade §8| §fВы обменялись'
+TRADE_END: '§6Trade §8| §fВы не обменялись, обмен завершен'
+TRADE_READY: '§aДанный игрок готов к обмену'
+TRADE_NO_READY: '§cДанный игрок не готов к обмену'
+TRADE_READY_NAME: '§aГотов'
+TRADE_NO_READY_NAME: '§cНе готов'
+
+QUESTION_MSG_INFO: "\n§6Questions §8| §fХотите получить §6монеты§f или §eзолото?\n§fТогда реши простой пример,\n§fи получи шанс получить §6монеты§f, или даже §eзолото§f!\n\n§fСколько будет §6%s§f*§6%s§f = §a/goto <ваш ответ> §7(наведи сюда)\n"
 QUESTION_HOVER_MSG_INFO: '§fЖмакай сюды,\n§fили пиши /goto <ответ>\n§fЧтоб ответить на вопрос'
 GOTO_FORMAT: '/goto <your answer>'
 QUESTION_NOT_FOUND: '§6Questions §8| §cНа вопрос уже ответил кто-то другой, подождите пока появится новый'
@@ -2227,7 +2247,7 @@ QUESTION_WRONG: '§6Questions §8| §cИзвини, это не правильн
 QUESTION_SUCCESS: '§6Questions §8| §fУвау, ты ответил правильно, и получил §a%s§f %s'
 QUESTION_DELETE_MSG_INFO: '§4§lQUESTIONS §8| §f§cМда, даже на простой вопрос ответить не можете..'
 QUESTION_WRONG_COUNT: '§6Questions §8| §cБлин, чел, ну ты чё? Это же не цыфра'
-QUESTION_SUCCESS_MSG_INFO: "\n§6Вопросы §8| §fА пока вы тут §bпрохлаждаетесь§f, игрок %s§f правильно ответил на вопрос, и получил: §a%s§f %s\n\n§5§lНе расходимся! Скоро следующий вопрос!"
+QUESTION_SUCCESS_MSG_INFO: "\n§6Вопросы §8| §fА пока вы тут §bпрохлаждаетесь§f, игрок %s§f правильно ответил на вопрос всего за %s§f, и получил: §a%s§f %s\n\n§5§lНе расходимся! Скоро следующий вопрос!"
 
 GOTO_TOP: '§6Вопросы §8| §fТоп §a7§f игроков:'
 GOTO_TOP_FORMAT: ' §6#%s §f- %s §fответов - §a%s'
@@ -2266,14 +2286,14 @@ GUI_PROFILE_LANGUAGE: '§bSwitch language'
 GUI_PROFILE_ITEMS: '§bItems'
 GUI_PROFILE_SHOP: '§bShop'
 GUI_PROFILE_LORE:
-- '§7Rank: %s'
-- '§7Coins: §6%s'
-- '§7Golds: §e%s'
-- '§7Ktems: §f%s'
-- '§7Level: §d%s'
-- '§7To next level: §a%s XP'
-- '§7Friends: §e%s§7/§a%s'
-- '§7Skin: §e%s'
+- '§8• §7ID: %s'
+- '§8• §7Rank: %s'
+- '§8• §7Coins: §6%s'
+- '§8• §7Golds: §e%s'
+- '§8• §7Language: §b%s'
+- '§8• §7Friends: §e%s§7/§a%s'
+- '§8• §7Version: §3%s'
+- '§8• §7Skin: §e%s'
 GUI_PROFILE_SETTING_LORE:
 - '§7Personal settings'
 - ' §8▪ §7Blood: %s'
@@ -2297,7 +2317,6 @@ GUI_PROFILE_LEVEL_LORE:
 - '§7and receiving special awards.'
 - ''
 - '§7Level: §d%s %s §6%s'
-- ''
 - '§7To the next level: §a%s XP'
 - ''
 - '%s'
@@ -2306,10 +2325,6 @@ LEVEL_NO: '§c▸ Rewards can get only from level 5'
 GUI_PROFILE_STATS_LORE:
 - '§7Game statistics'
 - '§7from all mini games'
-- ''
-- '§7Players with §f§lGOLEM§7 status'
-- '§7and higher can see other player'
-- '§7stats by typing - §f/stats <name>'
 - ''
 - '§e▸ Open the statistics menu'
 GUI_PROFILE_DONATEMENU_LORE:
@@ -2357,10 +2372,10 @@ GUI_PROFILE_LANGUAGE_LORE:
 - ''
 - '§7Currently available:'
 GUI_PROFILE_LANGUAGE_LORE2:
-- ''
-- '§cWARNING! If you want to help'
-- '§cwith transation, you can write'
-- '§cerrors on link goo-gl.ru/4Rqm'
+#- ''
+#- '§cWARNING! If you want to help'
+#- '§cwith transation, you can write'
+#- '§cerrors on link goo-gl.ru/4Rqm'
 - ''
 - '§e▸ Open the language menu'
 GUI_PROFILE_ITEMS_LORE:
@@ -2373,7 +2388,7 @@ GUI_PROFILE_ITEMS_LORE:
 GUI_PROFILE_SHOP_LORE:
 - '§7Shop, where you can'
 - '§7diffent things, items'
-- '§7for gold, and ktems'
+- '§7for gold, and coins'
 - ''
 - '§e▸ Open shop'
 GUI_PROFILE_NAME: 'Profile'
@@ -2441,7 +2456,6 @@ GUI_EMERALD_ALL_LORE:
 - ' §8▪ §7Pleasant music in the waiting lobby'
 - ' §8▪ §7Available item to disable or enable delay menu'
 - ' §8▪ §7Coin multiplier §fx1.5'
-- ' §8▪ §7You can change your skin - §f/skin <name>'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7You can have up to §c40§7 friends'
@@ -2492,9 +2506,7 @@ GUI_GOLEM_ALL_LORE:
 - ' §8▪ §7Pleasant music in the waiting lobby'
 - ' §8▪ §7Available item to disable or enable delay menu'
 - ' §8▪ §7Coin multiplier §fx1.75'
-- ' §8▪ §7You can change your skin - §f/skin <name>'
 - ' §8▪ §7Access to features menu - §f/dm'
-- ' §8▪ §7Ability to look at other peoples statistics - §f/stats <name>'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7You can have up to §c50§7 friends'
 - ''
@@ -2548,7 +2560,6 @@ GUI_DIAMOND_ALL_LORE:
 - ' §8▪ §7Pleasant music in the waiting lobby'
 - ' §8▪ §7Available item to disable or enable delay menu'
 - ' §8▪ §7Coin multiplier §fx2.0'
-- ' §8▪ §7You can change your skin - §f/skin <name>'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Ability to look at other peoples statistics - §f/stats <name>'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
@@ -2610,7 +2621,6 @@ GUI_ENDERMAN_ALL_LORE:
 - ' §8▪ §7Pleasant music in the waiting lobby'
 - ' §8▪ §7Available item to disable or enable delay menu'
 - ' §8▪ §7Coin multiplier §fx2.0'
-- ' §8▪ §7You can change your skin - §f/skin <name>'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Ability to look at other peoples statistics - §f/stats <name>'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
@@ -2712,7 +2722,7 @@ GUI_INFO_DONATE_LORE:
 - '§7find in section named §fProfile ▸ Donate'
 - ''
 - '§7You can buy status'
-- '§7Online §dwww.filkworld.cf'
+- '§7Online §dwww.flycore.ru'
 GUI_INFO_FRIEND_LORE:
 - '§7For a comfortable game with friends'
 - '§7use the commands below'
@@ -2754,8 +2764,6 @@ GUI_INFO_SKIN_LORE:
 - ''
 - '§7Skin changes momentally. You do not'
 - '§7need to relog'
-- ''
-- '§7Available for §a§lEMERALD §7and higher'
 GUI_INFO_MESSAGES_LORE:
 - '§7If you want to write a specific'
 - '§7message to a specific player, then'
@@ -2773,12 +2781,12 @@ GUI_INFO_MESSAGES_LORE:
 - '§e/ignorelist §7- List of all'
 - '§7blocked players'
 GUI_INFO_LINKS_LORE:
-- '§7Server Address: §eplay.filkworld.cf'
+- '§7Server Address: §eplay.flycore.ru'
 - ''
-- '§7VK community: §fvk.com/FilkWorldNew'
+- '§7VK community: §fvk.com/flycore'
 - ''
-- '§7Site: §fwww.filkworld.cf'
-- '§7Forum: §fforum.filkworld.cf'
+- '§7Site: §fwww.flycore.ru'
+- '§7Forum: §fforum.flycore.ru'
 - ''
 - '§7E-mail: §dktemprojects@mail.ru'
 GUI_INFO_REWARD_LORE:
@@ -2842,7 +2850,7 @@ GUI_INFO_LUCKYCHEST_LORE:
 - '§7Из ообычного ключа,'
 - '§7Вам могут выпасть гаджеты, монеты, опыт'
 - '§7При выпадении уже существующего гаджета,'
-- '§7Вы получите от 100 до 250 money'
+- '§7Вы получите от 1000 до 1900 money'
 GUI_INFO_HELP: '§bNavigation'
 GUI_INFO_DONATE: '§bPrivileges'
 GUI_INFO_FRIEND: '§bPlaying with friends'
@@ -3052,6 +3060,16 @@ GUI_GAMES_FFA_LORE:
 - '§8On mode playing %s'
 - ''
 - '%s'
+GUI_GAMES_SURVIVAL_LORE:
+- '§8Выживание'
+- ''
+- '§7Старое выживание'
+- ''
+- '§7Рекомендуемая версия для игры: %s'
+- ''
+- '§8На режиме играет %s'
+- ''
+- '%s'
 GUI_GAMES_DONATE_LORE:
 - '§7Detailed information about the features'
 - '§7privileges and their purchase'
@@ -3066,6 +3084,7 @@ GUI_GAMES_ANARCHY: '§bAnarchy'
 GUI_GAMES_PARKOUR: '§bParkour'
 GUI_GAMES_CREATIVE: '§bCreative'
 GUI_GAMES_FFA: '§bFFA'
+GUI_GAMES_SURVIVAL: '§bSurvival'
 GUI_GAMES_DONATE: '§bPrivileges'
 GUI_GAMES_LOBBY: '§bMain lobby'
 GUI_YOUTUBERS_NAME: 'Youtubers list'
@@ -3089,6 +3108,7 @@ GUI_GOLEM: 'Golems'
 GUI_DIAMOND: 'Diamonds'
 GUI_ENDERMAN: 'Endermans'
 GUI_ELITE: 'Elite'
+GUI_GAMERPRO: 'GamerPro'
 GUI_TESTER: 'Testers'
 GUI_BUILDER: 'Builders'
 GUI_YOUTUBE: 'Youtubers'
@@ -3103,6 +3123,7 @@ GUI_NO_GOLEM: 'Golems'
 GUI_NO_DIAMOND: 'Diamonds'
 GUI_NO_ENDERMAN: 'Endermans'
 GUI_NO_ELITE: 'Elites'
+GUI_NO_GAMERPRO: 'GamerPros'
 GUI_NO_TESTER: 'Testers'
 GUI_NO_BUILDER: 'Builders'
 GUI_NO_YOUTUBE: 'Youtubers'
@@ -3274,7 +3295,7 @@ GUI_REWARDS_INFO_LORE:
 - ' §8▪ §b§lDIAMOND§7 and §5§lENDERMAN §7- §e2.0x'
 - ''
 - '§7You can buy status'
-- '§7Online §dwww.filkworld.cf'
+- '§7Online §dwww.flycore.ru'
 GUI_WINREWARDS_NAME: 'Awards (detailed information)'
 GUI_REWARDS_SKYWARS: '§bSkyWars'
 GUI_REWARDS_BEDWARS: '§bBedWars'
@@ -3400,7 +3421,6 @@ GUI_FRIENDS_LORE:
 - ''
 - '§7Level: §d%s'
 - '§7Money: §6%s'
-- '§7Ktems: §f%s'
 - '§7Golds: §e%s'
 GUI_FRIENDS_ONLINE_LORE:
 - ''
@@ -3641,8 +3661,8 @@ GUI_REWARDS_4_LORE:
 - '§7а также других игровых ценностей'
 - ''
 - '§7Ссылки для голосования:'
-- ' §8• §amonitoringminecraft.ru/top/FilkWorldNew'
-- ' §8• §amc-servera.ru/83002'
+- ' §8• §cскоро'
+#- ' §8• §amc-servera.ru/83002'
 - ''
 - ' §e▸ Получить награды можно в меню, командой /items'
 GUI_REWARDS_5: '§eОнлайн-покупка'
@@ -3656,7 +3676,7 @@ GUI_REWARDS_5_LORE:
 - ' §8• §a7 rubbles§7 = 500 coins'
 - ' §8• §a3 rubbles§7 = 1 key'
 - ''
-- '§7Магазин: §efilkworld.cf'
+- '§7Магазин: §eflycore.ru'
 GUI_REWARDS_BOOSTER_ALREADY:
 - ''
 - '§7Можно будет получить через:'
@@ -3900,7 +3920,6 @@ GUI_GADGETS_GROUP: '§8• §7Only available for %s§7 or higher'
 GUI_GADGETS_BOX: '§8• §7Drop to §bLuckyChest §7(%s§7)'
 GUI_GADGETS_SITE: '§8• §7Buying on site §b%s'
 GUI_GADGETS_GIVE_MONEY: '§7Count §6%s§7 %s'
-GUI_GADGETS_GIVE_KTEMS: '§7Count §5%s§7 %s'
 GUI_GADGETS_GIVE_GOLDS: '§7Count §e%s§7 %s'
 GUI_GADGETS_NO_GIVE: '§cDo not enough %s'
 GUI_GADGETS_HAT_NO_AVAILABLE: '§cThis hat your not available'
@@ -4273,10 +4292,10 @@ GUI_EFFECTS_BUY_LORE:
 - '§7Count §6%s§7 %s'
 - ''
 - '§eClick, to buy %s'
-GUI_EFFECTS_NO_KTEMS_LORE:
+GUI_EFFECTS_NO_MONEY_LORE:
 - '§7Count §6%s§7 %s'
 - ''
-- '§cYou need ktems'
+- '§cYou need coins'
 GUI_ARROWEFFECTS_SMOKE_LORE:
 - '§7За каждой стрелой,'
 - '§7которой вы выстрелите,'
@@ -4306,6 +4325,12 @@ GUI_ARROWEFFECTS_REDSTONE_LORE:
 - '§7За каждой стрелой,'
 - '§7которой вы выстрелите,'
 - '§7будет следовать эффект разноцветного редстоуна'
+- ''
+- '§6Перк§e:'
+- '§7Всякий раз когда вы ломаете блок на анархии,'
+- '§7с каждого блока который вы ломаете,'
+- '§7будет даваться определенное кол-во опыта,'
+- '§7в зависимости от вашей привилегии!'
 - ''
 
 GUI_SOUNDKILLS_NAME: 'Profile ▸ Cosmetics ▸ Предсмертие'
@@ -4828,7 +4853,6 @@ GUI_CASES_INFO_LORE:
 - '§cС КАЖДЫМ ОТКРЫТИЕМ ШАНСЫ УВЕЛИЧИВАЮТСЯ!'
 GUI_CASES_BUY_TO_MONEY_NAME: '§6Покупка ключей за монеты'
 GUI_CASES_BUY_TO_GOLD_NAME: '§eПокупка ключей за золото'
-GUI_CASES_BUY_TO_KTEMS_NAME: '§eПокупка ключей за ктемы'
 GUI_CASES_BUY_NO_LORE:
 - ''
 - '§cПростите, но вы не сможете'
@@ -4838,10 +4862,10 @@ GUI_CASES_DEFAULT_LORE:
 - ''
 - '§7Используется для получения'
 - '§7бустеров в лобби, а так же'
-- '§7небольшого кол-ва монет, ктемов и опыта'
+- '§7небольшого кол-ва монет и опыта'
 - ''
 - '§cВнимание! При выбивании уже активированного'
-- '§cбустера вы получите от 400 до 1000 ктемов!'
+- '§cбустера вы получите от 40 до 100 золота!'
 GUI_CASES_DONATE_NAME: '§eDonate key'
 GUI_CASES_DONATE_LORE:
 - ''
@@ -4854,7 +4878,7 @@ GUI_CASES_MONEY_NAME: '§dMoney key'
 GUI_CASES_MONEY_LORE:
 - ''
 - '§7Используется для получения'
-- '§7монет, ктемов а также'
+- '§7монет а также'
 - '§7небольшого кол-ва золота'
 GUI_CASES_COSMETIC_NAME: '§aCosmetic-game key'
 GUI_CASES_COSMETIC_LORE:
@@ -4864,7 +4888,7 @@ GUI_CASES_COSMETIC_LORE:
 - '§7доступны, во всех лобби сервера'
 - ''
 - '§cВнимание! При выбивании уже существующего'
-- '§cгаджета вы получите от 100 до 250 монет!'
+- '§cгаджета вы получите от 1000 до 1900 money!'
 GUI_CASES_INFO_TO_LORE:
 - ''
 - '§7Доступных ключей: §a%s'
