@@ -408,8 +408,8 @@ LEVEL_NOT: '§cError, rewards can receive only 5 level or higher'
 REDIRECT_TO_SERVER: '§aTeleported to server %s'
 SERVER_QUEUE: '§aTeleported to server %s'
 
-TAB_HEADER: "§e§l§nFlyCore§8 (§2%sms§8)\n\n§fOnline-store:\n§ewww.flycore.ru\n"
-TAB_FOOTER: "\n§fYou are on the server:\n§e%s"
+TAB_HEADER: "§bYou played on server &e&l&nFlyCore"
+TAB_FOOTER: "§bOur IP: §3§lflycore.ru §8§l| §bOnline-store: §3§lflycore.ru §8§l| §bServer: §a§l%s §8§l| §bOnline: §a§l%s"
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
 HUBS_ERROR: '§cError, lobby unavailable, try again later'
@@ -640,7 +640,7 @@ BOARD_LEVEL: 'Level'
 BOARD_BLOCK_BREAK: 'Blocks removed'
 BOARD_BLOCK_PLACE: 'Blocks created'
 BOARD_BOOSTER: 'Active booster'
-BOARD_NO_BOOSTER: '§c▻ §7No activated booster'
+BOARD_NO_BOOSTER: '§c▻ §6No activated booster'
 BOARD_GOLD: 'Golds'
 BOARD_GLOBAL_ONLINE: 'Total online'
 BOARD_GROUP: 'Rank'
@@ -690,6 +690,7 @@ ASK_FORMAT: '/ask <your questing>'
 ANS_FORMAT: '/ans <nickname> <message>'
 FIND_FORMAT: '/find <nickname>'
 DEVELOPER_FORMAT: '/developer <your message for developer>'
+BANIP_FORMAT: '/banip <ip/player name> <time/e> <reason>'
 BAN_FORMAT: '/ban <nickname> <time/e> <reason>'
 MUTE_FORMAT: '/mute <nickname> <time/e> <reason>'
 UNBAN_FORMAT: '/unban <nickname>'
@@ -958,7 +959,7 @@ CORE_MONEY_COMMAND_HELP:
  - '§7/core money <key> check <name> §f- chack balance'
  - '§7/core money <key> add <name> <money> §f- give money'
  - '§7/core money <key> rem <name> <money> §f- take money'
-CORE_MONEY_CHECK: '§6Balance §8| §fFor account %s §a%s §fmoney'
+CORE_MONEY_CHECK: '§6Balance §8| §fFor account %s§f: §a%s §f%s, §e%s§f %s'
 CORE_MONEY_CHECK_FORMAT: '/core money <key> check <name>'
 CORE_MONEY_ERROR: '§cSum incorrect'
 CORE_MONEY_ADD: '§6Balance §8| §fFor account %s§f added §a%s §fmoney'
@@ -1355,8 +1356,8 @@ GUILD_RANK_NO_ACCESS: "§cYou can't manage ranks this player"
 GUILD_DONATE_FORMAT: '/guild donate <amount>'
 GUILD_DONATE_ALERT: '§2Guild §8| %s §finvested to the guild bank §a%s §fcoins'
 GUILD_DONATE: '§6Guild §8| §fYou invested to the guild bank §a%s §fcoins'
-GUILD_DONATE_DAILYLIMIT: '§cThe amount you want to invest exceeds the guild daily limit, limit - %s'
-GUILD_DONATE_LIMIT: '§cDaily guild limit exceeded, limit - %s'
+GUILD_DONATE_DAILYLIMIT: '§cThe amount you want to invest exceeds the guild 12 hours limit, limit - %s'
+GUILD_DONATE_LIMIT: '§c12 Hours guild limit exceeded, limit - %s'
 GUILD_DONATE_REMOVELIMIT: '§cZeroing limit after: %s'
 GUILD_DONATE_NO_MONEY: '§cThe amount you want to invest exceeds your balance'
 GUILD_DONATE_AVAILABLE: '§cMay invest %s'
@@ -1398,7 +1399,7 @@ GUILD_STATS: |-
  §6Гильдии §8| §fGuild stats §a%s §8| §e%s§f:
   §c• §fGuild balance: §a%s
   §c• §fEarned in a day: §a%s
-  §c• §fDaily limit: §c%s
+  §c• §f12 Hours limit: §c%s
   §c• §fGuild welcome: %s
   §c• §fGuild tag: %s
   §c• §fFounding date: §a%s
@@ -1611,7 +1612,7 @@ WHOIS_OFFLINE: |-
  §f - Language: §c%s
  §f - Server data: §c%s
 RULES: '§6Server §8| §fFull list of server rules -'
-RULES_2: '§dhttp://forum.flycore.ru/rules'
+RULES_2: '§dhttp://www.flycore.ru/rules'
 RULES_HOVER: '§fClick here,\n§fto open url'
 
 FIREWORK: '§aFirework!'
@@ -1751,7 +1752,7 @@ SERVER_BROADCAST: '§6Server §8| %s §fteleported to your server'
 TIME: '§6Server §8| §fTime spent on the server - §a%s'
 TIME_TO: '§6Server §8| §fPlayer %s§f played - §a%s§f time of server'
 
-MONEY: '§6Баланс §8| §fYou have §a%s §f%s'
+MONEY_AND_GOLDS: '§6Баланс §8| §fYou have §a%s §f%s, §e%s §f%s'
 
 BUY_BROADCAST: '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n               §c§lWARNING!\n    §fPlayer %s §fподдержал нас!\n    §bThank of buying %s\n    §fХотите помочь? §6flycore.ru §7[click]\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 BUY_THANKS: |-
@@ -1800,8 +1801,8 @@ MSG_ALERT: '§6PM §8| %s §8-> §6I §8| §7%s'
 MSG_DONATE: '§6PM §8| §6I §8-> %s §8| §f%s'
 MSG_ALERT_DONATE: '§6PM §8| %s §8-> §6I §8| §f%s'
 
-GLIST: '§6Server §8| §fTotal online §a%s §f%s'
-GLIST_SERVER: '§6Server §8| §fTotal online of gamemode §a%s'
+GLIST: '§6Server §8| §fTotal online §a%s §f%s: %s'
+GLIST_SERVER: '§6Server §8| §fTotal online of gamemode §a%s: %s'
 GLIST_NOT_FOUND: '§cError, current servers not found'
 
 REPLY_FORMAT: '/reply <message>'
@@ -1943,7 +1944,7 @@ LIST:
 #- ' §a▪ §fАдминистрация: %s'
 - ''
 LIST_EMPTY: '§8Никого нет'
-LIST_CMD: '%s§fOn server §a%s §f%s'
+LIST_CMD: '%s§fOn server §a%s §f%s: %s'
 
 ONLY_ANARCHY: '§cThis feature is disabled'
 ONLY_CREATIVE: '§cThis feature is disabled'
@@ -2239,19 +2240,19 @@ TRADE_NO_READY: '§cДанный игрок не готов к обмену'
 TRADE_READY_NAME: '§aГотов'
 TRADE_NO_READY_NAME: '§cНе готов'
 
-QUESTION_MSG_INFO: "\n§6Questions §8| §fХотите получить §6монеты§f или §eзолото?\n§fТогда реши простой пример,\n§fи получи шанс получить §6монеты§f, или даже §eзолото§f!\n\n§fСколько будет §6%s§f*§6%s§f = §a/goto <ваш ответ> §7(наведи сюда)\n"
-QUESTION_HOVER_MSG_INFO: '§fЖмакай сюды,\n§fили пиши /goto <ответ>\n§fЧтоб ответить на вопрос'
-GOTO_FORMAT: '/goto <your answer>'
-QUESTION_NOT_FOUND: '§6Questions §8| §cНа вопрос уже ответил кто-то другой, подождите пока появится новый'
-QUESTION_WRONG: '§6Questions §8| §cИзвини, это не правильный ответ :/ Попробуй еще раз, уверен у тебя получится!'
-QUESTION_SUCCESS: '§6Questions §8| §fУвау, ты ответил правильно, и получил §a%s§f %s'
-QUESTION_DELETE_MSG_INFO: '§4§lQUESTIONS §8| §f§cМда, даже на простой вопрос ответить не можете..'
-QUESTION_WRONG_COUNT: '§6Questions §8| §cБлин, чел, ну ты чё? Это же не цыфра'
-QUESTION_SUCCESS_MSG_INFO: "\n§6Вопросы §8| §fА пока вы тут §bпрохлаждаетесь§f, игрок %s§f правильно ответил на вопрос всего за %s§f, и получил: §a%s§f %s\n\n§5§lНе расходимся! Скоро следующий вопрос!"
+QUESTION_MSG_INFO: "\n§6Примеры §8| §fХотите получить §6монеты§f или §eзолото?\n§6Примеры §8| §fТогда решите небольшой пример.\n§6Примеры §8| §fСколько будет §6%s§f+§6%s§f = §a/goto <ваш ответ>\n"
+QUESTION_HOVER_MSG_INFO: '§fНажмите сюда,\n§fили напишите /goto <ответ>\n§fЧтоб ответить на вопрос'
+GOTO_FORMAT: '/goto <ваш ответ>'
+QUESTION_NOT_FOUND: '§cНа вопрос уже ответил кто-то другой, подождите пока появится новый'
+QUESTION_WRONG: '§cИзвини, это не правильный ответ :/ Попробуйте еще раз, уверены у вас получится!'
+QUESTION_SUCCESS: '§6Примеры §8| §fМолодцы! Вы правильно ответили на пример, и получил §a%s§f %s'
+QUESTION_DELETE_MSG_INFO: '§6Примеры §8| §fК сожалению никто не ответил на пример...'
+QUESTION_WRONG_COUNT: '§cВведенный вами ответ не является числом'
+QUESTION_SUCCESS_MSG_INFO: "\n§6Примеры §8| §fВнимание! Игрок %s§f правильно ответил на пример за %s§f, и получил: §a%s§f %s\n"
 
-GOTO_TOP: '§6Вопросы §8| §fТоп §a7§f игроков:'
-GOTO_TOP_FORMAT: ' §6#%s §f- %s §fответов - §a%s'
-GOTO_TOP_YOUR: '§6Вопросы §8| §fУ вас ответов: §a%s'
+GOTO_TOP: '§6Примеры §8| §fТоп §a7§f игроков:'
+GOTO_TOP_FORMAT: ' §6#%s §f- %s §fрешенных примеров - §a%s'
+GOTO_TOP_YOUR: '§6Примеры §8| §fУ вас решенных примеров: §a%s'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
@@ -2402,6 +2403,7 @@ GUI_DONATE_ANARCHY: '§bAnarchy'
 GUI_DONATE_CREATIVE: '§bCreative'
 GUI_DONATE_PARKOUR: '§bParkour'
 GUI_DONATE_LUCKYWARS: '§bLuckyWars'
+GUI_DONATE_SURVIVAL: '§bSurvival'
 GUI_DONATE_PAYMENT: '§bPlayment options'
 GUI_DONATE_INFO: '§bAdditional Information'
 
@@ -2446,6 +2448,10 @@ GUI_GOLD_LUCKYWARS_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
+GUI_GOLD_SURVIVAL_LORE:
+- ''
+- ' §4✕ §7No features available'
+- ''
 GUI_EMERALD_ALL_LORE:
 - ''
 - ' §8▪ §7Prefix §a§lEMERALD'
@@ -2455,6 +2461,7 @@ GUI_EMERALD_ALL_LORE:
 - ' §8▪ §7Ability to write in capital letters'
 - ' §8▪ §7Pleasant music in the waiting lobby'
 - ' §8▪ §7Available item to disable or enable delay menu'
+- ' §8▪ §7No delay on §f/skin'
 - ' §8▪ §7Coin multiplier §fx1.5'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
@@ -2496,6 +2503,10 @@ GUI_EMERALD_LUCKYWARS_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
+GUI_EMERALD_SURVIVAL_LORE:
+- ''
+- ' §4✕ §7No features available'
+- ''
 GUI_GOLEM_ALL_LORE:
 - ''
 - ' §8▪ §7Prefix §f§lGOLEM'
@@ -2505,6 +2516,7 @@ GUI_GOLEM_ALL_LORE:
 - ' §8▪ §7Ability to write in capital letters'
 - ' §8▪ §7Pleasant music in the waiting lobby'
 - ' §8▪ §7Available item to disable or enable delay menu'
+- ' §8▪ §7No delay on §f/skin'
 - ' §8▪ §7Coin multiplier §fx1.75'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
@@ -2547,6 +2559,10 @@ GUI_GOLEM_PARKOUR_LORE:
 - ''
 GUI_GOLEM_LUCKYWARS_LORE:
 - ''
+- ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
+- ''
+GUI_GOLEM_SURVIVAL_LORE:
+- ''
 - ' §4✕ §7No features available'
 - ''
 GUI_DIAMOND_ALL_LORE:
@@ -2559,6 +2575,7 @@ GUI_DIAMOND_ALL_LORE:
 - ' §8▪ §7Ability to write in capital letters'
 - ' §8▪ §7Pleasant music in the waiting lobby'
 - ' §8▪ §7Available item to disable or enable delay menu'
+- ' §8▪ §7No delay on §f/skin'
 - ' §8▪ §7Coin multiplier §fx2.0'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Ability to look at other peoples statistics - §f/stats <name>'
@@ -2604,6 +2621,10 @@ GUI_DIAMOND_PARKOUR_LORE:
 - ''
 GUI_DIAMOND_LUCKYWARS_LORE:
 - ''
+- ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
+- ''
+GUI_DIAMOND_SURVIVAL_LORE:
+- ''
 - ' §4✕ §7No features available'
 - ''
 GUI_ENDERMAN_ALL_LORE:
@@ -2620,6 +2641,7 @@ GUI_ENDERMAN_ALL_LORE:
 - ' §8▪ §7Ability to write in capital letters'
 - ' §8▪ §7Pleasant music in the waiting lobby'
 - ' §8▪ §7Available item to disable or enable delay menu'
+- ' §8▪ §7No delay on §f/skin'
 - ' §8▪ §7Coin multiplier §fx2.0'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Ability to look at other peoples statistics - §f/stats <name>'
@@ -2665,6 +2687,10 @@ GUI_ENDERMAN_PARKOUR_LORE:
 - ''
 GUI_ENDERMAN_LUCKYWARS_LORE:
 - ''
+- ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
+- ''
+GUI_ENDERMAN_SURVIVAL_LORE:
+- ''
 - ' §4✕ §7No features available'
 - ''
 GUI_DONATE_PAYMENT_LORE:
@@ -2687,8 +2713,8 @@ GUI_DONATE_INFO_LORE:
 - ' §f<The price of your existing status> '
 - '' 
 - '§7For example, if you want to buy a status'
-- '§a§lEMERALD§7, and you already have §e§lGOLD§7,'
-- '§7then you have to pay §c101 rubbles§7.'
+- '§b§lDIAMOND§7, and you already have §a§lEMERALD§7,'
+- '§7then you have to pay §c182 rubbles§7.'
 GUI_DONATE_ITEM: '§bRank %s'
 GUI_DONATE_ITEM_LORE:
 - ''
@@ -2704,7 +2730,6 @@ GUI_INFO_HELP_LORE:
 - '§e/staff §7- Server staff online'
 - '§e/ask <your question> §7- Create question'
 - '§e/report <player name> <reason> §7- Report for player'
-- '§e/convert §7- Conversation currencies'
 - ''
 - '§7Также для получения списка всех доступных Вам команд,'
 - '§7введите в поле ввода §e/§7 и нажмите на кнопку Tab'
@@ -2945,6 +2970,7 @@ GUI_SERVERS_NAME: 'Servers list'
 GUI_GAMES_NAME: 'Game selection'
 GUI_GAMES_WIPE: ' §e§lMade vipe'
 GUI_GAMES_BETA: ' §C§lBETA-TESTING'
+GUI_GAMES_NEW: ' §b§lNEW'
 GUI_GAMES_DEVELOPMENT_1: '§c  In development'
 GUI_GAMES_DEVELOPMENT_2: '§c▶ In development'
 GUI_GAMES_DEVELOPMENT_3: '§c▶ In development.'
@@ -3419,9 +3445,11 @@ GUI_FRIENDS_ITEM_LORE:
 - '§7Total online friends: §a%s'
 GUI_FRIENDS_LORE:
 - ''
-- '§7Level: §d%s'
-- '§7Money: §6%s'
-- '§7Golds: §e%s'
+- '§7Friend info:'
+- '§8▪ §7Level: §d%s'
+- '§8▪ §7Coins: §6%s'
+- '§8▪ §7Golds: §e%s'
+- '§8▪ §7Version: §3%s'
 GUI_FRIENDS_ONLINE_LORE:
 - ''
 - '§7Now on the server: §e%s'
@@ -4728,7 +4756,7 @@ GUI_GUILDSHOP_MEMBERS_LORE:
 GUI_GUILDSHOP_MONEY_LORE:
 - ''
 - '§7Увеличит максимальное'
-- '§7количество монеток в день'
+- '§7количество монеток every 12 hours'
 - '§7для гильдии до §e%s'
 GUI_GUILDSHOP_TAG_LORE:
 - ''
