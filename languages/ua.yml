@@ -2,89 +2,89 @@
 
 SERVER: '§6Сервер §8| §f'
 SERVER_RESTART: 'Перезагрузка'
-SERVER_CLOSED_PLAYER_CONNECTION: '§6Сервер §8| §fСервер §a%s §fзакрыл ваше соединение, Ваш сервер установлен на §a%s'
-COMMAND_DOUBLE: '§6Сервер §8| §fПожалуйста используйте команды §cбез §fдвоеточия'
+SERVER_CLOSED_PLAYER_CONNECTION: '§6Сервер §8| §fСервер §a%s §fзакрив ваше з'єднання, Ваш сервер встановлений на §a%s'
+COMMAND_DOUBLE: "§6Сервер §8 | §Будь ласка Використовуйте команди §cбез §fдвокрапки"
 ENABLED: '§aВключено'
-DISABLED: '§cОтключено'
-ENABLE: '§aВключить'
-DISABLE: '§cОтключить'
-BANINFO_BY_ANOTHER: '§7[по просьбе %s§7]'
-BAN_REQUEST_SENT: '§eВаша просьба заблокировать данного игрока отправлена всем онлайн-модераторам'
-BAN_REQUEST_ALREADY_SENT: '§cПросьба заблокировать данного игрока уже отправлялась, ожидайте решения'
-BAN_REQUEST_BROADCAST: '§cМодерация §8| §7%s §7просит заблокировать %s §7на §7%s §7по причине §e%s'
-BAN_REQUEST_ACCEPT_BROADCAST: '§cМодерация §8| %s§a одобрил §7просьбу на блокировку §e%s'
-BAN_REQUEST_REJECT_BROADCAST: '§cМодерация §8| %s§c отклонил §7просьбу на блокировку §e%s'
-BAN_ACCEPT_FORMAT: '/banrequests accept <ник нарушителя>'
-BAN_ACCEPT_FORMAT: '/banrequests accept <ник нарушителя>'
-BAN_REQUEST_HOVER: '§fНажмите, чтобы принять запрос'
-BAN_REQUEST_NOT_FOUND: '§cЗапрос на блокировку игрока %s не найден или уже закрыт'
-BAN_REQUEST_ACCEPT: '%s §aОдобрил ваш запрос на блокировку %s'
-BAN_REQUEST_REJECT: '%s §cОтклонил ваш запрос на блокировку %s'
-BANIP_REQUEST_SENT: '§eВаша просьба заблокировать данный ip адрес отправлена всем онлайн-модераторам'
-BANIP_REQUEST_ALREADY_SENT: '§cПросьба заблокировать данный ip адрес уже отправлялась, ожидайте решения'
-BANIP_REQUEST_BROADCAST: '§cМодерация §8| §7%s §7просит заблокировать ip адрес §a%s§7 на §7%s §7по причине §e%s'
-BANIP_REQUEST_ACCEPT_BROADCAST: '§cМодерация §8| %s§a одобрил §7просьбу на блокировку адреса §a%s'
-BANIP_REQUEST_REJECT_BROADCAST: '§cМодерация §8| %s§c отклонил §7просьбу на блокировку адреса §a%s'
-BANIP_REQUEST_ACCEPT: '%s §aОдобрил ваш запрос на блокировку адреса %s'
-BANIP_REQUEST_REJECT: '%s §cОтклонил ваш запрос на блокировку адреса %s'
+DISABLED: '§cВідключено'
+ENABLE: '§aВключити'
+DISABLE: '§cВідключити'
+BANINFO_BY_ANOTHER: '§7[по проханню %s§7]'
+BAN_REQUEST_SENT: '§eВаше прохання заблокувати даного гравця відправлена усім онлайн-модераторам'
+BAN_REQUEST_ALREADY_SENT: '§cПросьба заблокувати даного гравця вже відправлялася, очікуйте рішення'
+BAN_REQUEST_BROADCAST: '§cМодерація §8 | §7% s §7проситm заблокувати% s §7на §7% s §7по причині §e% s '
+BAN_REQUEST_ACCEPT_BROADCAST: '§cМодерація §8 | % S§a схвалив §7просьбу на блокування §e% s '
+BAN_REQUEST_REJECT_BROADCAST: '§cМодерація §8 | % S§c відхилив §7просьбу на блокування §e% s '
+BAN_ACCEPT_FORMAT: '/banrequests accept <нік порушника>'
+BAN_ACCEPT_FORMAT: '/banrequests accept <нік порушника>'
+BAN_REQUEST_HOVER: '§fНажміть, щоб прийняти запит'
+BAN_REQUEST_NOT_FOUND: '§cЗапрос на блокування гравця% s не найден або вже закритий'
+BAN_REQUEST_ACCEPT: '% s §aОдобрив ваш запит на блокування% s'
+BAN_REQUEST_REJECT: '% s §cВідхилив ваш запит на блокування% s'
+BANIP_REQUEST_SENT: '§eВаше прохання заблокувати даний ip адресу відправлено всім онлайн-модераторам'
+BANIP_REQUEST_ALREADY_SENT: '§cПросьба заблокувати цей ip адреса вже відправлялася, очікуйте рішення'
+BANIP_REQUEST_BROADCAST: '§cМодерація §8 | §7% s §7просить заблокувати ip адреса §a% s§7 на §7% s §7по причині §e% s '
+BANIP_REQUEST_ACCEPT_BROADCAST: '§cМодерація §8 | % S§a схвалив §7прохання на блокування адреси §a% s '
+BANIP_REQUEST_REJECT_BROADCAST: '§cМодерація §8 | % S§c відхилив §7прохання на блокування адреси §a% s '
+BANIP_REQUEST_ACCEPT: '% s §aОдобрив ваш запит на блокування адреси% s'
+BANIP_REQUEST_REJECT: '% s §cВідхилив ваш запит на блокування адреси% s'
 BAN_REQUEST_FOR_PERSONAL:
- - '§cВы не можете отправить запрос блокировки на персонал сервера'
-# - '§cДля этого существует обсуждение в группе https://vk.com/topic-155142790_38895715'
-CONVERT_FORMAT: '/convert <валюта> <сумма>'
-CONVERT_ERROR: '§cОшибка, нужно указывать только положительное число число!'
-CONVERT: '§6Магазин §8| §fВы успешно обменяли §e%s §f%s на §a%s §f%s'
-CONVERT_AVAILABLE: '§cОшибка, доступные валюты: golds'
-CORE_PROXY_CONNECTED: '§6Core §8| §fПрокси §a%s§f §fбыл успешно§a подключен§f с адреса §e%s'
-CORE_PROXY_CONNECTION_CLOSED: '§6Core §8| §fПрокси §a%s§f §cотключен§f, по причине: §a%s'
-CORE_SERVER_CONNECTED: '§6Core §8| §fСервер §a%s§f §fбыл§a подключен§f с адреса §e%s'
-CORE_SERVER_CONNECTION_CLOSED: '§6Core §8| §fСервер §a%s§f §cотключен§f, по причине: §a%s'
-PROXY_COMMAND: '§6Proxy §8| §fБыла получена команда: §a%s'
-CORE_HANDSHAKE_WRONG_OF_HOST: 'неверный хост'
-CORE_HANDSHAKE_WRONG_OF_PASSWORD: 'неверный пароль'
-CORE_HANDSHAKE_WRONG_OF_COREID: 'id ядра §e%s§3, не соответствует подключаемому §c%s'
-CORE_HANDSHAKE_CONNECTION_CLOSED: '§6Core §8| §fПодключение §a%s§f было закрыто по причине: §3%s'
-CORE_HANDSHAKE_CONNECTION_CONFIRM: '§6Core §8| §fПодключение §a%s§f было успешно принято (§e#%s§f)'
-TYPE_YES: 'Да'
-TYPE_NO: 'Нет'
-DEFAULT: '§7Игрок'
+ - '§cВи не можете відправити запит блокування на персонал сервера'
+# - '§cДля цього існує обговорення в групі https://vk.com/topic-155142790_38895715'
+CONVERT_FORMAT: '/convert <валюта> <сума>'
+CONVERT_ERROR: '§cПомилка, потрібно вказувати тільки позитивне число число!'
+CONVERT: '§6Магазін §8 | §FВи успішно обміняли §e% s §f% s на §a% s §f% s '
+CONVERT_AVAILABLE: '§cПомилка, доступні валюти: golds'
+CORE_PROXY_CONNECTED: '§6Core §8 | §FПроксі §a% s§f §fбил успешно§a подключен§f з адреси §e% s '
+CORE_PROXY_CONNECTION_CLOSED: '§6Core §8 | §FПроксі §a% s§f §cотключен§f, по причині: §a% s '
+CORE_SERVER_CONNECTED: '§6Core §8 | §FСервер §a% s§f §fбил§a подключен§f з адреси §e% s '
+CORE_SERVER_CONNECTION_CLOSED: '§6Core §8 | §FСервер §a% s§f §cотключен§f, по причині: §a% s '
+PROXY_COMMAND: '§6Proxy §8| §fБула получена команда: §a%s'
+CORE_HANDSHAKE_WRONG_OF_HOST: 'неправльиний хост'
+CORE_HANDSHAKE_WRONG_OF_PASSWORD: 'неправильний пароль'
+CORE_HANDSHAKE_WRONG_OF_COREID: "id ядра §e% s§3, а не відповідає підключається §c% s '
+CORE_HANDSHAKE_CONNECTION_CLOSED: "§6Core §8 | §FПодключеніе §a% s§f була закрита за: §3% s '
+CORE_HANDSHAKE_CONNECTION_CONFIRM: "§6Core §8 | §FПодключеніе §a% s§f успішно прийнято (§e #% s§f) '
+TYPE_YES: 'Так'
+TYPE_NO: 'Ні'
+DEFAULT: '§7Гравець'
 GOLD: '§eЗолото'
-EMERALD: '§aИзумруд'
+EMERALD: '§aСмарагд'
 GOLEM: '§7Голем'
 DIAMOND: '§bАлмаз'
-ENDERMAN: '§5Эндермен'
+ENDERMAN: '§5Ендермен'
 TESTER: '§6Тестер'
-BUILDER: '§3Строитель'
+BUILDER: '§3Будівельник'
 YOUTUBE: '§6YouTube'
 JUNIOR: '§2Мл. Хелпер'
 HELPER: '§2Хелпер'
 MODER: '§9Модератор'
-ADMIN: '§4Админ'
+ADMIN: '§4Адмін'
 SPONSOR: '§eСпонсор'
-JDEVELOPER: '§5Мл. Разраб.'
-DEVELOPER: '§5Разработчик'
-ELITE: '§aЭлита'
+JDEVELOPER: '§5Мл. Розробник.'
+DEVELOPER: '§5Розробник'
+ELITE: '§aЕліта'
 GAMERPRO: '§5Геймер§6Pro'
 GAMER: '§5Геймер'
-SERVER_RESTARTING_BROADCAST: '§cДо перезагрузки осталось, §e%s§c %s'
-SERVER_RESTARTING_MESSAGE: '§6Сервер §8| §fСервер на котором Вы находились перезагружается..'
-NO_CONNECT_REASON: "§cОшибка #13, Синхронизация не выполнена. Если ошибка повторилась, сообщите » §a§nvk.com/flycore"
-CORE_NO_FOUND_PLAYER_SERVER_MSG: '§6Сервер §8| §fОшибка, Ваш сервер был не найден в главном ядре, Вы были телепортированы в §a%s'
-CORE_NO_FOUND_PLAYER_SERVER: "§fОшибка, Ваш сервер был не найден в главном ядре. Если ошибка повторилась, сообщите » §a§nvk.com/flycore\n\n§fКод ошибки (§c%s§f)"
+SERVER_RESTARTING_BROADCAST: '§cДо перезавантаження залишилося, §e% s§c% s'
+SERVER_RESTARTING_MESSAGE: '§6Сервер §8 | §FСервер на якому Ви перебували перезавантажується .. '
+NO_CONNECT_REASON: "§cОшібка # 13, Синхронізація не виконана. Якщо помилка повторилася, повідомте» §a§nvk.com / flycore "
+CORE_NO_FOUND_PLAYER_SERVER_MSG: '§6Сервер §8 | §FПомилка, Ваш сервер був не знайдений в головному ядрі, Ви були переміщуватися в §a% s '
+CORE_NO_FOUND_PLAYER_SERVER: "§fОшібка, Ваш сервер був не знайдений в головному ядрі. Якщо помилка повторилася, повідомте» §a§nvk.com / flycore \ n \ n§fКод помилки (§c% s§f) "
 PROXY_CORE_LOST_CONNECTION:
-- '§6Сервер §8| §cПрокси-сервер, на котором вы сейчас находились, был отключен от главного ядра.'
-- '§6Сервер §8| §fСейчас вам временно будут недоступны некоторые команды и переход между серверами.'
-- '§6Сервер §8| §fПросим набратся немного терпения и подождать, мы оповестим вас когда все стабилизируется :)'
-PROXY_CORE_LOST_CONNECTION_TITLE: '§c✗ Соединение потеряно §c✗'
-PROXY_CORE_LOST_CONNECTION_SUBTITLE: '§fПрокси-сервер был отключен от главного ядра'
+- '§6Сервер §8 | §CПроксі-сервер, на якому ви зараз знаходилися, був відключений від головного ядра. '
+- '§6Сервер §8 | §FСейчас вам тимчасово будуть недоступні деякі команди і перехід між серверами. '
+- '§6Сервер §8 | §FПросім набратся трохи терпіння і почекати, ми сповістимо вас коли все стабілізується :) '
+PROXY_CORE_LOST_CONNECTION_TITLE: '§c✗ З'єднання втрачено §c✗'
+PROXY_CORE_LOST_CONNECTION_SUBTITLE: '§fПроксі-сервер був відключений від головного ядра'
 PROXY_RECONNECTED_PLAYER:
-- '§6Сервер §8| §fПереподключение к серверу... [§a%s§f/§a%s§f]'
-PROXY_RECONNECTED_PLAYER_TITLE: '§6⚠ Выполняется переподключение. . '
-PROXY_RECONNECTED_PLAYER_SUBTITLE: '§fПожалуйста подождите'
+- '§6Сервер §8 | §FПереподключеніе до сервера ... [§a% s§f / §a% s§f] '
+PROXY_RECONNECTED_PLAYER_TITLE: '§6⚠ Виконується перепідключення. . '
+PROXY_RECONNECTED_PLAYER_SUBTITLE: '§fБудь ласка почекайте'
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL:
-- '§6Сервер §8| §fСоединение с прокси-сервером восстановлено.'
-- '§6Сервер §8| §fВы снова можете использовать команды и переход между серверами.'
-PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: '§a✔ Соединение восстановлено §a✔'
-PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: '§fКоманды и переход по серверам снова доступен'
+- '§6Сервер §8 | §FПідключення з проксі-сервером відновлено. '
+- '§6Сервер §8 | §FВи знову можете використовувати команди і перехід між серверами. '
+PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: '§a✔ З'єднання відновлено §a✔'
+PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: '§fКоманди і перехід по серверам знову доступний'
 
 SECOND_0: 'секунд'
 SECOND_1: 'а'
@@ -180,12 +180,12 @@ TIME_24: 'у'
 TIME_25: 'ы'
 TIME_26: 'а'
 
-ITEMS_REMOVE_STATS: '§6Предметы §8| §fВы удалили статус %s'
-ITEMS_REMOVE_DONATE: '§6Предметы §8| §fВы удалили привилегию %s'
-ITEMS_REMOVE_ITEM: '§6Предметы §8| §fВы удалили предмет %s'
+ITEMS_REMOVE_STATS: '§6Предмети §8 | §FВи видалили статус %s'
+ITEMS_REMOVE_DONATE: '§6Предмети §8 | §FВи видалили привілей %s'
+ITEMS_REMOVE_ITEM: '§6Предмети §8 | §FВи видалили предмет %s'
 
-ITEMS_ADD_STATS: '§6Предметы §8| §fВы забрали статус %s'
-ITEMS_ADD_DONATE: '§6Предметы §8| §fВы забрали привилегию %s'
+ITEMS_ADD_STATS: '§6Предмети §8 | §FВи забрали статус %s'
+ITEMS_ADD_DONATE: '§6Предмети §8 | §FВи забрали привілей %s'
 
 COINS_ADD: '§6+%s'
 KEY_ADD: '§d+%s'
@@ -194,291 +194,278 @@ EXP_ADD: '§3+%s EXP'
 GOLDS_ADD: '§e+%s'
 DONATKEYS_ADD: '§b+%s'
 NULL_ADD: '§c+%s'
-FOOD_ADD: '§6+%s еды'
-HP_ADD: '§c+%s здоровья'
+FOOD_ADD: '§6+%s їди'
+HP_ADD: '§c+%s здоров'я'
 
-EFFECTSHOP_EFFECT_NOT_LEVEL: '§cДля покупки данного эффекта, вам нужен уровень §d%s§c или выше'
-EFFECTSHOP_SOUND_NOT_LEVEL: '§cДля покупки данного звука, вам нужен уровень §d%s§c или выше'
+EFFECTSHOP_EFFECT_NOT_LEVEL: '§cДля покупки даного ефекту, вам потрібен рівень §d% s§c або вище'
+EFFECTSHOP_SOUND_NOT_LEVEL: '§cДля покупки даного звуку, вам потрібен рівень §d% s§c або вище'
 
 PLAYER_NO_MONEY:
 - ''
-- '§6Сервер §8| §fОшибка! У вас недостаточно §aмонет§f для покупки! Купить еще монеток можно на нашем сайте §dmg.flycore.ru §7(жми)'
+- '§6Сервер §8 | §FОшібка! У вас недостатньо §aмонет§f для покупки! Купити ще монеток можна на нашому сайті §dwww.flycore.ru §7 (тисни) '
 - ''
 PLAYER_NO_GOLD:
 - ''
-- '§6Сервер §8| §fОшибка! У вас недостаточно §6золота§f для покупки! Покупка золота осуществляется только на сайте §dmg.flycore.ru §7(жми)'
+- '§6Сервер §8 | §FОшібка! У вас недостатньо §6золота§f для покупки! Купівля золота здійснюється тільки на сайті §dwww.flycore.ru §7 (тисни) '
 - ''
 PLAYER_NO_LEVEL:
 - ''
-- '§6Сервер §8| §fОшибка! У вас недостаточно §bуровеня§f для открытия меню!'
+- '§6Сервер §8 | §FОшібка! У вас недостатньо §bуровеня§f для відкриття меню! '
 - ''
 PLAYER_NO_KEYS:
 - ''
-- '§6Сервер §8| §fОшибка! У вас недостаточно §dключей§f для открытия! Покупка ключей осуществляется только на сайте §dmg.flycore.ru §7(жми)'
+- '§6Сервер §8 | §FОшібка! У вас недостатньо §dключей§f для відкриття! Купівля ключів здійснюється тільки на сайті §dwww.flycore.ru §7 (тисни) '
 - ''
 
-PLAYER_GADGETS_BANNER_NO_GROUP: '§cДля покупки данного баннера Вам нужна привилегия %s§c или выше!'
-PLAYER_GADGETS_HAT_NO_GROUP: '§cДля покупки данной шляпы Вам нужна привилегия %s§c или выше!'
-PLAYER_GADGETS_EFFECT_NO_GROUP: '§cДля покупки данного эффекта Вам нужна привилегия %s§c или выше!'
+PLAYER_GADGETS_BANNER_NO_GROUP: '§cДля покупки даного банера Вам потрібна привілей% s§c або вище!'
+PLAYER_GADGETS_HAT_NO_GROUP: '§cДля покупки даної капелюхи Вам потрібна привілей% s§c або вище!'
+PLAYER_GADGETS_EFFECT_NO_GROUP: '§cДля покупки даного ефекту Вам потрібна привілей% s§c або вище!'
 
-PLAYER_GUILDSHOP_NO_MONEY: '§6Гильдия §8| §fНа счету гильдии недостаточно монет для приобретения данного улучшения'
-PLAYER_GUILDSHOP_ALREADY: '§6Гильдия §8| §fДанное улучшение уже приобретено'
-PLAYER_GUILD_BUY: '§6Гильдии §8| §fВы приобрели %s'
+PLAYER_GUILDSHOP_NO_MONEY: '§6Гільдія §8 | §FНа рахунку гільдії недостатньо монет для придбання даного поліпшення '
+PLAYER_GUILDSHOP_ALREADY: '§6Гільдія §8 | §FДанное поліпшення вже придбано '
+PLAYER_GUILD_BUY: '§6Гільдіі §8 | §FВи придбали% s '
 PLAYER_GUILD_BUY_MOTD:
 - ''
-- '                §8-| §6§lГИЛЬДИИ §8|-'
-- ' §fПоздравляем! Вы приобрели улучшение §eприветствие гильдии'
-- ' §fДля задания сообщения при входе используйте следующие команды:'
-- ' §7/guild motd set <текст> §f- изменить приветствие гильдии'
-- ' §7/guild motd info §f- просмотреть текущее приветствие гильдии'
-- ' §fДля переноса строчки, используйте символ §6\n§f в приветствии'
+- '§8- | §6§lГІЛЬДІІ §8 | - '
+- '§fПоздравляем! Ви придбали поліпшення §eпріветствіе гільдії '
+- '§fДля завдання повідомлення при вході використовуйте наступні команди:'
+- '§7 / guild motd set <текст> §f- змінити привітання гільдії'
+- '§7 / guild motd info §f- переглянути Поточне повідомлення гільдії'
+- '§fДля перенесення рядки, використовуйте символ §6 \ n§f в привітанні'
 - ''
 PLAYER_GUILD_BUY_TAG:
 - ''
-- '                §8-| §6§lГИЛЬДИИ §8|-'
-- ' §fПоздравляем! Вы приобрели улучшение §eтэг гильдии'
-- ' §fТеперь Вы можете задать §7суффикс§f, который будет отображен'
-- ' §fпосле ника каждого участника Вашей гильдии'
-- ' §fДля этого используйте команду §7/guild tag'
+- '§8- | §6§lГІЛЬДІІ §8 | - '
+- '§fПоздравляем! Ви придбали поліпшення §eтег гільдії '
+- '§fТеперь Ви можете задати §7суффікс§f, який буде відображений'
+- '§fпосле ника кожного учасника Вашої гільдії'
+- '§fДля цього використовуйте команду §7 / ​​guild tag'
 - ''
 
-PLAYER_GUILD_YOU_KICKED: |-
- §6Гильдии §8| §fВы были удалены из гильдии §e%s
- §c • §f%s: §a%s
- §c • §fПричина: §a%s
-  
- §c • §fДата: §a%s
- §c • §e%s назад
-  
+PLAYER_GUILD_YOU_KICKED: | -
+ §6Гільдіі §8 | §FВи були видалені з гільдії §e% s
+ §C • §f% s: §a% s
+ §C • §fПрічіна: §a% s
+  
+ §C • §fДата: §a% s
+ §C • §e% s назад
+  
 PLAYER_BOOSTER_BUY_MULTIPLY:
 - ''
-- '                §8-| §b§lБУСТЕРЫ §8|-'
-- ' §fПоздравляем! Вы приобрели бустер §eмножитель x2.0'
-- ' §fТеперь при выпадении уже существующего гаджета, или статуса'
-- ' §fиз сундука удачи, Они будут умножены на §ax2.0'
+- '§8- | §B§lБУСТЕРИ §8 | - '
+- '§fПоздравляем! Ви придбали бустер §eмножітель x2.0 '
+- '§fТеперь при випаданні вже існуючого гаджета, або статусу'
+- '§fіз скрині удачі, Вони будуть помножені на §ax2.0'
 - ''
-PLAYER_BOOSTER_MULTIPLY: '§a▻ §bМножитель x2.0'
+PLAYER_BOOSTER_MULTIPLY: '§a▻ §bМножітель x2.0'
 
-PLAYER_MARKETING_ACTIONBAR_TIME: '§cДо окончания игры осталось: %s'
-PLAYER_MARKETING_START_ONE: |-
- §6Marketing §8| §fВы выбрали тип игры: §aПримеры§f.
- §6Marketing §8| §fКаждые несколько секунд, у вас в чате будут появляться примеры, отвечайте на них правильно, чтобы проходить на следующие модули, и в конце окончить игру.
-PLAYER_MARKETING_START_TWO: |-
- §6Marketing §8| §fВы выбрали тип игры: §bПаркур§f.
- §6Marketing §8| §fПройдите все модули до самого конца, чтобы окончить игру.
-PLAYER_MARKETING_QUESTION_WIN: '§6Marketing §8| §fВы ответили правильно, и получили §e+1 модуль'
-PLAYER_MARKETING_FINISH: |-
- §6Marketing §8| §fПоздравляем, вы прошли все модули, и получили награды
-PLAYER_MARKETING_QUESTION_TITLE: '              §8 -| §6§lПример §8|-'
-PLAYER_MARKETING_QUESTION: |-
- §fСколько будет, §a%s §fумножить на§a %s§f = §e?
- §7ответ напишите в чате
-PLAYER_MARKETING_QUESTION_WRONG: '§cОшибка, ответ на пример неверный'
-PLAYER_MARKETING_END_TIME: '§6Marketing §8| §cСожалеем, время вышло, вы не успели пройти игру'
-PLAYER_MARKETING_MODULE_CONFIRM: '§6Marketing §8| §f+1 §aмодуль пройден'
-PLAYER_MARKETING_QUIT_GAME: '§6Marketing §8| §fВы закрыли меню, арена покинута'
+PLAYER_MARKETING_ACTIONBAR_TIME: '§cДо закінчення гри залишилося:% s'
+PLAYER_MARKETING_START_ONE: | -
+ §6Marketing §8 | §FВи вибрали тип гри: §aПрімери§f.
+ §6Marketing §8 | §FКаждие кілька секунд, у вас в чаті будуть з'являтися приклади, відповідайте на них правильно, щоб проходити на наступні модулі, і в кінці закінчити гру.
+PLAYER_MARKETING_START_TWO: | -
+ §6Marketing §8 | §FВи вибрали тип гри: §bПаркур§f.
+ §6Marketing §8 | §FПройдіте всі модулі до самого кінця, щоб закінчити гру.
+PLAYER_MARKETING_QUESTION_WIN: '§6Marketing §8 | §FВи відповіли правильно, і отримали §e + 1 модуль '
+PLAYER_MARKETING_FINISH: | -
+ §6Marketing §8 | §FПоздравляем, ви пройшли всі модулі, і отримали нагороди
+PLAYER_MARKETING_QUESTION_TITLE: '§8 - | §6§lПрімер §8 | - '
+PLAYER_MARKETING_QUESTION: | -
+ §FСколько буде, §a% s §fумножіть на§a% s§f = §e?
+ §7ответ напишіть в чаті
+PLAYER_MARKETING_QUESTION_WRONG: '§cОшібка, відповідь на приклад невірний'
+PLAYER_MARKETING_END_TIME: '§6Marketing §8 | §CСожалеем, час вийшло, ви не встигли пройти гру '
+PLAYER_MARKETING_MODULE_CONFIRM: '§6Marketing §8 | §F + 1 §aмодуль пройдено '
+PLAYER_MARKETING_QUIT_GAME: '§6Marketing §8 | §FВи закрили меню, арена покинута '
 
-PLAYER_RESTARTING_ARENA: '§cРестарт арены, вы будите телепортированны в лобби через 5 секунд'
+PLAYER_RESTARTING_ARENA: '§cРестарт арени, ви будите телепортірованія в лобі через 5 секунд'
 PLAYER_ARENA_RESTARTED: '§cАрена перезапускается'
 
-PLAYER_FLY_ACTIONBAR_TIME: '§cДо конца полета осталось: %s'
-PLAYER_CREATIVE_ACTIONBAR_TIME: '§cДо конца творческого режима осталось: %s'
+PLAYER_FLY_ACTIONBAR_TIME: '§cДо кінця польоту залишилося:% s'
+PLAYER_CREATIVE_ACTIONBAR_TIME: '§cДо кінця творчого режиму залишилося:% s'
 
-PLAYER_BOOST_NEED_XP: '§cВам нехватает %s, для повышения до %s'
-PLAYER_BOOST_BROADCAST: '§6Повышение §8| %s §fповысился до звания %s §aПоздравьте его!'
-PLAYER_BOOST_MAX_BROADCAST: '§6Повышение §8| %s §fповысился до §a§nмаксимального§f звания %s §aПоздравьте его!'
-PLAYER_BOOST_YOUR_UP_1: '%s§l§kX§f §5Вы повысились до %s %s§l§kX§f'
-PLAYER_BOOST_YOUR_UP_2: '§fи получили:'
-PLAYER_BOOST_YOUR_UP_COINS: '§7+§6%s §f%s'
-PLAYER_BOOST_YOUR_UP_EXP: '§7+§3%s §fEXP'
-PLAYER_BOOST_YOUR_UP_KEY: '§7+§d%s §f%s'
+PLAYER_BOOST_NEED_XP: '§cВам бракує% s, для підвищення до% s'
+PLAYER_BOOST_BROADCAST: '§Підвищення §8 | % S §fповисілся до звання% s §aПоздравьте його! '
+PLAYER_BOOST_MAX_BROADCAST: '§Підвищення §8 | % S §fповисілся до §a§nмаксімального§f звання% s §aПоздравьте його! '
+PLAYER_BOOST_YOUR_UP_1: '% s§l§kX§f §5Ви підвищилися до% s% s§l§kX§f'
+PLAYER_BOOST_YOUR_UP_2: '§fі отримали:'
+PLAYER_BOOST_YOUR_UP_COINS: '§7 + §6% s §f% s'
+PLAYER_BOOST_YOUR_UP_EXP: '§7 + §3% s §fEXP'
+PLAYER_BOOST_YOUR_UP_KEY: '§7 + §d% s §f% s'
 PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
-- '§6Повышение §8| §cПожалуйста отправьте скриншот этого сообщения в группу §a§nvk.me/flycore§c для получения повышения.'
-- '§cДанная проверка сделана исключительно для вашей безопасности'
+- '§Підвищення §8 | §CПожалуйста відправте скріншот цього повідомлення в групу §a§nvk.me / flycore§c для отримання підвищення. '
+- '§cЦя перевірка зроблена виключно для вашої безпеки'
 
 AVAILABLE_SERVER_NOT_FOUND:
-- '§6Сервер §8| §fНе удалось найти подходящий сервер'
+- '§6Сервер §8 | §FНе вдалося знайти відповідний сервер '
 
-SERVER_NOT_AVAILABLE_GROUP: '§cОшибка, вход доступен только для %s§c и выше'
-PLAYER_SERVER_ALREADY: '§6Сервер §8| §cВы уже находитесь на этом сервере!'
+SERVER_NOT_AVAILABLE_GROUP: '§cОшібка, вхід доступний тільки для% s§c і вище'
+PLAYER_SERVER_ALREADY: '§6Сервер §8 | §CВи вже знаходитеся на цьому сервері! '
 
-SLOT_BUSY: '§cПростите, но вы были перемещены в лобби, ваше место занял §r%s'
-ERROR_TELEPORT: '§cОшибка телепортации в лобби'
-ONLY_DONATOR: '§cОшибка, на арене только донатеры'
-ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите §e§lGOLD§c или выше'
-ARENA_START: '§cИгра начинается...'
-ARENA_RESTART: '§cСервер перезагружается...'
+SLOT_BUSY: '§cПростіте, але ви були переміщені в лобі, ваше місце зайняв §r% s'
+ERROR_TELEPORT: '§cОшібка телепортації в лобі'
+ONLY_DONATOR: '§cОшібка, на арені тільки донатери'
+ARENA_BUSY: '§cАрена заповнена, не вистачає слотів? Купіть §e§lGOLD§c або вище '
+ARENA_START: '§cІгра починається ...'
+ARENA_RESTART: '§cСервер перезавантажується ...'
 
-PLAYER_JOIN_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
-PLAYER_QUIT_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
-ARENA_DO_NOT_PLAYERS: '§cОшибка, не хватает игроков для старта'
-ARENA_STARTED: '§fИгра начнется через §a%s §f%s'
+PLAYER_JOIN_ARENA: '% s§f зайшов в гру (§a% s§f / §a% s§f)'
+PLAYER_QUIT_ARENA: '% s§f покинув гру (§c% s§f / §a% s§f)'
+ARENA_DO_NOT_PLAYERS: '§cОшібка, не вистачає гравців для старту'
+ARENA_STARTED: '§fІгра почнеться через §a% s §f% s'
 
 LUCKYWARS_STARTED_TITLE: '§c§lСтарт!'
-LUCKYWARS_STARTED_SUBTITLE: '§fВыживите и не попадитесь в ловушку'
+LUCKYWARS_STARTED_SUBTITLE: '§fВижівіте і не попадіться в пастку'
 
-LUCKYWARS_FLY: '§6LuckyWars §8| §fПолет отключается через §a5 секунд.'
-LUCKYWARS_FLY_INFO: '§6LuckyWars §8| §fИгроку %s§f выпал полёт из лаки блока'
+LUCKYWARS_FLY: '§6LuckyWars §8 | §FПолет відключається через §a5 секунд. '
+LUCKYWARS_FLY_INFO: '§6LuckyWars §8 | §FІгроку% s§f випав політ з лаки блоку '
 
-GAME_PLAYER_KILLED_YOURSELF: 'Вы умерли!'
-GAME_PLAYER_RESPAWN_TITLE: '§aВы возродились'
-GAME_PLAYER_RESPAWN_SUBTITLE: '§6%s ресурсов §7восстановлено'
-GAME_PLAYER_RESPAWN_SUBTITLE_BY: '§fВас убил игрок %s'
-GAME_PLAYER_KILLED_INFO: '%s §fубил игрока %s'
-GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s §fвыпал из мира'
-GAME_TEAM_WIN: '§eПобедила команда §8- %s'
-GAME_SOLO_WIN: '§eПобедил игрок §8- %s'
-GAME_CHAT_SPECTATORS: '§8[§7Наблюдателям§8]'
-GAME_CHAT_GLOBAL: '§8[Всем§8] [%s§8]'
-GAME_CHAT_TEAM: '§8[Команде§8]'
-GAME_TEAM_GAME_OVER: 'Команда %s§f проиграла'
+GAME_PLAYER_KILLED_YOURSELF: 'Ви померли!'
+GAME_PLAYER_RESPAWN_TITLE: '§aВи відродилися'
+GAME_PLAYER_RESPAWN_SUBTITLE: '§6% s ресурсів §7восстановлено'
+GAME_PLAYER_RESPAWN_SUBTITLE_BY: '§fВас вбив гравець% s'
+GAME_PLAYER_KILLED_INFO: '% s §fубіл гравця% s'
+GAME_PLAYER_KILLED_FELL_OUT_WORLD: '% s §fвипал зі світу'
+GAME_TEAM_WIN: '§eПобеділа команда §8-% s'
+GAME_SOLO_WIN: '§eПобеділ гравець §8-% s'
+GAME_CHAT_SPECTATORS: '§8 [§7Наблюдателям§8]'
+GAME_CHAT_GLOBAL: '§8 [Всем§8] [% s§8]'
+GAME_CHAT_TEAM: '§8 [Команде§8]'
+GAME_TEAM_GAME_OVER: 'Команда% s§f програла'
 
 LUCKYWARS_INFO:
-- '§eВаша задача ломать лакиблоки и убивать игроков'
-- '§eВас будет преследовать множество ловушек,'
-- '§eтак что будьте очень осторожны!'
+- '§eВаша завдання ламати лакіблокі і вбивати гравців'
+- '§eВас буде переслідувати безліч пасток,'
+- '§eтак що будьте дуже обережні!'
 
-PLAYER_TEAM_NO_PLACES: '§cВ данной команде нет мест.'
-PLAYER_TEAM_SELECTED: 'Вы выбрали команду %s'
+PLAYER_TEAM_NO_PLACES: '§cВ даної команді немає місць.'
+PLAYER_TEAM_SELECTED: 'Ви вибрали команду% s'
 
-ARENA_TYPE_TEAM_NO_TEAM: '§c§lВнимание! §cОбразование союзов из нескольких команд запрещено. Докладывайте о таких игроках на форум.'
-ARENA_TYPE_SOLO_NO_TEAM: '§c§lВнимание! §cКомандная игра запрещена на Solo режиме. Докладывайте о таких игроках на форум.'
+ARENA_TYPE_TEAM_NO_TEAM: '§c§lВніманіе! §Cосвіта союзів з декількох команд заборонено. Доповідайте про таких гравців на форум. '
+ARENA_TYPE_SOLO_NO_TEAM: '§c§lВніманіе! §CКомандная гра заборонена на Solo режимі. Доповідайте про таких гравців на форум. '
 
-SITESHOP_BUY: '§6Магазин §8| §fВы купили §a%s'
-SITESHOP_INFO: '§6Сервер §8| §fИгрок %s§f купил §a%s§f, купить можно в §6/siteshop'
-SITESHOP_TITLE: '§fИгрок %s§f купил §a%s'
-SITESHOP_SUBTITLE: '§fКупить можно в §6/siteshop'
-
-SITESHOP_FLY: 'Полет'
-SITESHOP_CREATIVE_MODE: 'Творческий режим'
-SITESHOP_KIT_START: 'Стартовый набор'
-SITESHOP_KIT_MEGA: 'Mega набор'
-SITESHOP_LUCKYCHEST: 'Сундук удачи'
+SITESHOP_BUY: '§6Магазін §8 | §FВи купили §a% s '
+SITESHOP_INFO: '§6Сервер §8 | §FІгрок% s§f купив §a% s§f, купити можна в §6 / siteshop '
+SITESHOP_TITLE: '§fІгрок% s§f купив §a% s'
+SITESHOP_SUBTITLE: '§fКупити можна в §6 /siteshop'
+SITESHOP_FLY: 'Політ'
+SITESHOP_CREATIVE_MODE: 'Творчий режим'
+SITESHOP_KIT_START: 'Стартовий набір'
+SITESHOP_KIT_MEGA: 'Mega набір'
+SITESHOP_LUCKYCHEST: 'Скриня удачі'
 SITESHOP_DONATKEY: 'Донат-ключ'
 
-PERSONALUP_CONFIRM: '§cПодтвердите свой ключ /personalup <ключ>'
+PERSONALUP_CONFIRM: '§cПодтвердіте свій ключ / personalup <ключ>'
 
 SERVER_LINKS:
-- '§7Адрес сервера: §eflycore.ru'
+- '§7Адрес сервера: §eplay.flycore.ru'
 - ''
-- '§7Группа Вконтакте: §fvk.com/flycore'
+- '§7Группа Вконтакте: §fvk.com / flycore'
 - ''
-- '§7Сайт: §fmg.flycore.ru'
+- '§7Сайт: §fwww.flycore.ru'
 - '§7Форум: §fforum.flycore.ru'
 - ''
 - '§7Почта: §dktemprojects@mail.ru'
 
-REWARDS_1: '§fВы получили §b%s§f %s:'
-REWARDS_2: '§7+§6%s§f %s'
-REWARDS_3: '§7+§a%s§f опыта'
-REWARDS_4: '§7+§d%s§f Косметических ключей'
-REWARDS_5: '§7+§d%s§f Косметическо-игровых ключей'
-REWARDS_6: '§7+§d%s§f Денежных ключей'
-REWARDS_7: '§7+§d%s§f Ультра ключей'
-REWARDS_8: '§7+§e%s§f Золота'
+REWARDS_1: '§fВи отримали §b% s§f% s:'
+REWARDS_2: '§7 + §6% s§f% s'
+REWARDS_3: '§7 + §a% s§f досвіду'
+REWARDS_4: '§7 + §d% s§f Косметичних ключів'
+REWARDS_5: '§7 + §d% s§f Косметично-ігрових ключів'
+REWARDS_6: '§7 + §d% s§f Грошових ключів'
+REWARDS_7: '§7 + §e% s§f Золота'
 
-PRIZE_GET: |-
- §6Награды §8| §fВы получили награду за §b%s§f уровень:
- §8 • §7+§6%s§f Монет
- §8 • §7+§d%s§f Косметических ключей
- §8 • §7+§d%s§f Денежных ключей
- §8 • §7+§d%s§f Косметическо-игровых ключей
- §8 • §7+§d%s§f Ультра ключей
-PRIZE_ALREADY: '§cВы уже забирали награду за данный уровень...'
-PRIZE_STATS: ' §8 • §7+%s§f Статус'
-PRIZE_NO_LEVEL: '§cУ вас должен быть минимум 1 уровень, чтобы получить награду'
+ANS_REASON: '1.16. (Оффтоп) '
+ANS_REASON_MSG: 'Схоже чат призначений виключно для допомоги гравцям з адекватними питаннями, пам'ятайте це'
+ANS_USE_MSG: '§6Вопроси §8 | §FДля відповіді пишіть §a / ans% s <ваше повідомлення> §7 (наведіть) '
+ANS_USE_HOVER: '§fНажміте, щоб відповісти гравцеві% s'
 
-ANS_REASON: '1.16. (Оффтоп)'
-ANS_REASON_MSG: 'Данный чат предназначен исключительно для помощи игрокам с адекватными вопросами, помните это'
-ANS_USE_MSG: '§6Вопросы §8| §fДля ответа пишите §a/ans %s <ваше сообщение> §7(наведите)'
-ANS_USE_HOVER: '§fНажмите, чтобы ответить игроку %s'
-
-REPORT_REASON_1: '1.4 (Реклама посторонних ресурсов)'
+REPORT_REASON_1: '1.4 (Реклама сторонніх ресурсів)'
 REPORT_REASON_2: '1.3 (Флуд)'
 REPORT_REASON_3: '1.5 (Попрашайнечество)'
-REPORT_REASON_4: '(Скорее всего аккаунт взломан, сообщите vk.com/flycore)'
-REPORT_REASON_5: '1.6 (Читы)'
+REPORT_REASON_4: '(Можливо аккаунт зламаний, повідомте vk.com/flycore)'
+REPORT_REASON_5: '1.6 (Чити)'
 
-SERVER_STOP: '§6Сервер §8| §fОтключение сервера §a%s§f...'
-SERVER_START: '§6Сервер §8| §fВключение сервера §a%s§f..'
-SERVER_KILL: '§6Сервер §8| §fУбийство сервера §a%s§f. . '
+SERVER_STOP: '§6Сервер §8 | §FВиключення сервера §a% s§f ... '
+SERVER_START: '§6Сервер §8 | §FВключення сервера §a% s§f .. '
+SERVER_KILL: '§6Сервер §8 | §FВбивство сервера §a% s§f. . '
 
-LEVEL_NOT: '§cОшибка, награды можно получать только с 5 уровня'
-REDIRECT_TO_SERVER: '§aТелепортирую на сервер %s'
-SERVER_QUEUE: '§aТелепортирую на сервер %s'
+LEVEL_NOT: '§cПомилка, нагороди можна отримувати тільки з 5 рівня'
+REDIRECT_TO_SERVER: '§aТелепортую на сервер% s'
+SERVER_QUEUE: '§aТелепортую на сервер% s'
 
-TAB_HEADER: "§bВы играете на сервере &e&l&nFlyCore"
-TAB_FOOTER: "§bНаш айпи: §3§lmg.flycore.ru §8§l| §bОнлайн магазин: §3§lmg.flycore.ru §8§l| §bСервер: §a§l%s §8§l| §bОнлайн: §a§l%s"
+TAB_HEADER: "§bВи граєте на сервері & e & l & nFlyCore"
+TAB_FOOTER: "§bНаш айпі: §3§lflycore.ru §8§l | §bОнлайн магазин: §3§lflycore.ru §8§l | §bСервер: §a§l% s §8§l | §bОнлайн: §a§l% s "
 
-REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
-HUBS_ERROR: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
+REDIRECT_ERROR: '§cНеможливо знайти потрібний сервер ('
+HUBS_ERROR: '§cОшібка, немає доступного лобі, спробуйте повторити спробу пізніше'
 
-JOIN_WARNING_IP_CHANGE: '§c⚠ Внимание! §fВаш §cip адрес§f прошлой сессии не совпадает, наведите сюда и проверьте'
-JOIN_WARNING_HOVER: "§fВаш прошлый адрес: §a%s\n§fВаш текущий адрес: §c%s\n§fВаша почта: %s\n\n§fРекомендуем сделать: %s"
-JOIN_NOT_MAIL: '§cНет почты'
-JOIN_RECOMMEND_ADDMAIL: "§bПривязать почту\n\n §e▸ Нажмите сюда, чтобы привязать почту"
-JOIN_RECOMMEND_CREATEAPI: "§bСоздать api-ключ\n\n §e▸ Нажмите сюда, чтобы создать api-ключ"
-JOIN_RECOMMEND_CHANGEAPI: "§bСменить api-ключ\n\n §e▸ Нажмите сюда, чтобы сменить api-ключ"
+JOIN_WARNING_IP_CHANGE: '§c⚠ Увага! §FВаш §cip адрес§f минулій сесії не збігається, наведіть сюди і перевірте '
+JOIN_WARNING_HOVER: "§fВаш минулий адреса: §a% s \ n§fВаш поточний адресу: §c% s \ n§fВаша пошта:% s \ n \ n§fРекомендуем зробити:% s"
+JOIN_NOT_MAIL: '§cНет пошти'
+JOIN_RECOMMEND_ADDMAIL: "§bПрівязать пошту \ n \ n §e▸ Натисніть сюди, щоб прив'язати пошту"
+JOIN_RECOMMEND_CREATEAPI: "§bСоздать api-ключ \ n \ n §e▸ Натисніть сюди, щоб створити api-ключ"
+JOIN_RECOMMEND_CHANGEAPI: "§bСменіть api-ключ \ n \ n §e▸ Натисніть сюди, щоб змінити api-ключ"
 
-GUILD_JOIN_CHAT: '§2Гильдии §8| %s §f%s на сервер'
-GUILD_JOIN_HOVER: "§fНажмите сюда,\n§fчтобы написать игроку %s"
-GUILD_JOIN_ACTIONBAR: '§2Гильдии §8| %s §f%s на сервер'
-GUILD_JOIN_ONLINE: '§6Гильдии §8| §fВ онлайне: §a%s§f %s'
+GUILD_JOIN_CHAT: '§2Гільдіі §8 | % S §f% s на сервер '
+GUILD_JOIN_HOVER: "§fНажміте сюди, \ n§fчтоби написати гравцеві% s"
+GUILD_JOIN_ACTIONBAR: '§2Гільдіі §8 | % S §f% s на сервер '
+GUILD_JOIN_ONLINE: '§6Гільдіі §8 | §FВ онлайні: §a% s§f% s '
 
-FRIEND_JOIN_CHAT: '§6Друзья §8| §f%s %s §f%s в игру §7(нажмите сюда)'
-FRIEND_JOIN_HOVER: "§fНажмите сюда,\n§fчтобы написать %s %s"
-FRIEND_JOIN_ACTIONBAR: '§6Друзья §8| §f%s %s §f%s в игру'
-FRIEND_JOIN_ONLINE: '§6Друзья §8| §fВ онлайне §a%s§f %s'
+FRIEND_JOIN_CHAT: '§6Друзья §8 | §F% s% s §f% s в гру §7 (натисніть сюди) '
+FRIEND_JOIN_HOVER: "§fНажміте сюди, \ n§fчтоби написати% s% s"
+FRIEND_JOIN_ACTIONBAR: '§6Друзья §8 | §F% s% s §f% s в гру '
+FRIEND_JOIN_ONLINE: '§6Друзья §8 | §FВ онлайні §a% s§f% s '
 
-FRIEND_JOIN_REQUESTS: '§6Друзья §8| §fУ вас §e%s §fнепринятых заявок в друзья'
-PARTY_JOIN_REQUESTS: '§6Party §8| §fУ вас §e%s §fнепринятых заявок в party'
-GUILD_JOIN_REQUESTS: '§6Гильдии §8| §fУ вас §e%s §fнепринятых заявок в гильдии'
-MAIL_JOIN_REQUESTS: '§6Mail §8| §fУ вас §e%s §fнепрочитаных писем §7(Нажмите сюда)'
-MAIL_JOIN_HOVER: "§fНажмите сюда,\n§fчтобы открыть список писем"
-#§7Наш Discord: §6discord.gg/
+FRIEND_JOIN_REQUESTS: '§6Друзья §8 | §FУ вас §e% s §fнепрінятих заявок в друзі '
+PARTY_JOIN_REQUESTS: '§6Party §8 | §FУ вас §e% s §fнепрінятих заявок в party '
+GUILD_JOIN_REQUESTS: '§6Гільдіі §8 | §FУ вас §e% s §fнепрінятих заявок в гільдії '
+MAIL_JOIN_REQUESTS: '§6Mail §8 | §FУ вас §e% s §fнепрочітаних листів §7 (Натисніть сюди) '
+MAIL_JOIN_HOVER: "§fНажміте сюди, \ n§fчтоби відкрити список листів"
+# §7Наш Discord: §6discord.gg /
 MSG_TITLE: ''
-MSG_SUBTITLE: '§7Группа: §cvk.com/flycore'
+MSG_SUBTITLE: '§7Группа: §cvk.com / flycore'
 
-ITEM_EXIT_NAME: '§aНазад в главное лобби'
+ITEM_EXIT_NAME: '§aНазад в головне лобі'
 ITEM_EXIT_LORE:
- - '§7Используйте этот предмет,'
- - '§7чтобы вернуться в главное лобби'
-ITEM_START_NAME: '§eБыстрый старт'
+ - '§7Іспользуйте цей предмет,'
+ - '§7чтоби повернутися в головне лобі'
+ITEM_START_NAME: '§eБистрий старт'
 ITEM_START_LORE:
- - '§7Удобная навигация по'
- - '§7картам и аренам данного режима'
-ITEM_STAFFCHAT_NAME: '§eЧат персонала'
+ - '§7Удобная навігація по'
+ - '§7картам і арен даного режиму'
+ITEM_STAFFCHAT_NAME: '§eЧат персоналу'
 ITEM_STAFFCHAT_LORE:
- - '§7Позволяет вклюить или выключить'
- - '§7Чат персонала §f/sc'
- - '§7через весь сервер'
- - ''
- - '§7Чат персонала: %s'
- - ''
- - ' §e▸ Нажмите, чтобы %s чат персонала'
+ - '§7Позволяет вклю або вимкнути'
+ - '§7Чат персоналу §f / sc'
+ - '§7через весь сервер'
+ - ''
+ - '§7Чат персоналу:% s'
+ - ''
+ - '§e▸ Натисніть, щоб% s чат персоналу'
 ITEM_DELAY_NAME: '§eЗадержка'
 ITEM_DELAY_LORE:
- - '§7Позволяет включить или выключить'
- - '§7Задержки в меню,'
- - '§7при нажатии на предметы'
- - ''
- - '§7Задержка: %s'
- - ''
- - ' §e▸ Нажмите, чтобы %s задержку'
-ITEM_GAME_NAME: '§aИгровые режимы'
+ - '§7Позволяет включити або вимкнути'
+ - '§7Задержкі в меню,'
+ - '§7прі натисканні на предмети'
+ - ''
+ - '§7Задержка:% s'
+ - ''
+ - '§e▸ Натисніть, щоб% s затримку'
+ITEM_GAME_NAME: '§aІгровие режими'
 ITEM_GAME_LORE:
- - '§7Универсальный прибор'
- - '§7для передвижения по'
- - '§7всем режимам сервера'
-ITEM_GADGETS_NAME: '§eГаджеты'
+ - '§7Універсальний прилад'
+ - '§7для пересування по'
+ - '§7всем режимам сервера'
+ITEM_GADGETS_NAME: '§eГаджети'
 ITEM_GADGETS_LORE:
- - '§7Различные вещи для'
- - '§7развлечения в лобби'
-ITEM_LOBBY_NAME: '§eВыбор лобби'
+ - '§7Разлічние речі для'
+ - '§7развлеченія в лобі'
+ITEM_LOBBY_NAME: '§eВибор лобі'
 ITEM_LOBBY_LORE:
- - '§7Смените лобби и'
- - '§7найдите своих друзей'
-ITEM_PROFILE_NAME: '§eПрофиль игрока %s'
+ - '§7Сменіте лобі і'
+ - '§7найдіть своїх друзів'
+ITEM_PROFILE_NAME: '§eПрофіль гравця% s'
 ITEM_PROFILE_LORE:
  - '§7Полезная информация'
 ITEM_TEST_NAME: '§b%s |'
@@ -588,7 +575,7 @@ TRAINING_STAGE_3_MSG_15_SUBTITLE: '§fтогда войдите в §2Профи
 TRAINING_STAGE_3_MSG_16_TITLE: '§fЕсли Вы хотите прочитать информацию о сервере,'
 TRAINING_STAGE_3_MSG_16_SUBTITLE: '§fтогда зайдите в §2Профиль ▸ Информация'
 TRAINING_STAGE_3_MSG_17_TITLE: '§fВам понравился сервер, или Вы хотите его поддержать?'
-TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dmg.flycore.ru'
+TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dwww.flycore.ru'
 TRAINING_STAGE_3_MSG_18_TITLE: ''
 TRAINING_STAGE_3_MSG_18_SUBTITLE: '§7И конечно самое главное...'
 TRAINING_STAGE_3_MSG_19_TITLE: '§fИнтересны §5разработки§f, или есть вопросы по плагинам§f/§6форуму§f?'
@@ -830,43 +817,6 @@ PLAYERINFO: |-
  §f- Косметических ключей: §a%s
  §f- Денежных ключей: §a%s
  §f- Косметическо-игровых ключей: §a%s
- §f- Ультра ключей: §a%s
- §f- Донатных ключей: §a%s
- §f- uuid: §a%s
- 
-ME_INFO: |-
- 
- §8Здесь вы можете увидить информацию,
- §8которую мы храним на сервере о вас.
- 
- §8#Proxy
- §6Proxy §8| §fИнформация о подключении игрока %s§f:
- §f- §fПрокси: §a%s
- §f- §fIP адрес: §a%s
- §f- §fОбщий онлайн: §a%s §f%s
- §8#Whois
- §eИнформация об игроке %s
- §f- ID игрока: §a%s
- §f- Привилегия: §a%s
- §f- IP адрес: §a%s
- §f- Прокси: §a%s
- §f- Сервер: §a%s
- §f- Версия: §a%s
- §f- Язык: §a%s
- §f- Подключен с: §a%s
- §f- Серверные данные: §a%s
- §8#Datas
- §eИнформация об игроке %s§e:
- §f- ID игрока: §a%s
- §f- Привилегия: §a%s
- §f- Монет: §a%s
- §f- Золота: §a%s
- §f- Уровень игрока: §a%s
- §f- Опыт игрока: §a%s
- §f- Косметических ключей: §a%s
- §f- Денежных ключей: §a%s
- §f- Косметическо-игровых ключей: §a%s
- §f- Ультра ключей: §a%s
  §f- Донатных ключей: §a%s
  §f- uuid: §a%s
 
@@ -874,11 +824,6 @@ FINDID_FORMAT: '/findid <id>'
 FINDID_NOT_FOUND: '§cИгрок с id %s, никогда прежде не посещал проект'
 FINDID_INVALID_ID: '§cid %s, не является числом'
 FINDID_CONFIRM: '§6Сервер §8| §fИнформация об id §a%s§f: Игрок: %s'
-
-PLAYER_OLD_VERSION:
-- '§cМы обнаружили, что Вы используете версию игры ниже 1.12'
-- '§cВ силу этого Вы можете наблюдать различные проблемы'
-- '§cРекомендуем вам обновить игровой клиент прямо сейчас!'
 
 CORE_COMMAND_HELP:
  - '§7/core memory §f- Информация о памяти ядра'
@@ -889,7 +834,7 @@ CORE_COMMAND_HELP:
  - '§7/core proxys §f- Список подключенных прокси'
  - '§7/core servers §f- список подключенных серверов'
  - '§7/core hide §f- скрыть себя'
- - '§7/core notify §f- переключить уведомления ядра'
+ - '§7/core norify §f- переключить уведомления ядра'
 CORE_NPC_COMMAND_HELP:
  - '§6NPC §8| §fСписок команд:'
  - '§7/core npc create <id> <тип> <название> §f- создание npc'
@@ -1194,7 +1139,6 @@ BOX_GOLDS: '§eЗолото §f(§a+%s§f)'
 BOX_DONATKEYS: '§3Донатные ключи §f(§b+%s§f)'
 BOX_MONEYKEYS: '§dДенежные ключи §f(§e+%s§f)'
 BOX_COSMETICKEYS: '§aКосметико-игровые ключи §f(§d+%s§f)'
-BOX_ULTRAKEYS: '§bУльтра ключи §f(§d+%s§f)'
 BOX_NULL: '§c??? §f(§c%s§c +%s§f)'
 BOX_LEGENDARY: '§6Легендарный'
 BOX_EPIC: '§5Эпический'
@@ -1209,7 +1153,7 @@ BOX_EFFECT_ALREADY: '§bСундук удачи §8| §fУ Вас уже ест�
 BOX_HAT_ALREADY: '§bСундук удачи §8| §fУ Вас уже есть данная шляпа, Вы получили §6+%s §f%s'
 BOX_BANNER_ALREADY: '§bСундук удачи §8| §fУ Вас уже есть данный баннер, Вы получили §6+%s §f%s'
 BOX_STATS_ALREADY: '§bСундук удачи §8| §fУ Вас уже есть данный статус, Вы получили §e+%s §f%s'
-BOX_BOOSTER_ALREADY: '§bСундук удачи §8| §fУ Вас уже активирован данный бустер, Вы получили §6+%s §f%s'
+BOX_BOOSTER_ALREADY: '§bСундук удачи §8| §fУ Вас уже активирован данный бустер, Вы получили §e+%s §f%s'
 
 STAFFCHAT_MSG: '§eЧат персонала §8| §f%s §8» §f%s'
 TESTERCHAT_MSG: '§6Чат тестеров §8| §f%s §8» §f%s'
@@ -1464,6 +1408,8 @@ PERSONALUP_KEY_REASON: '§4Ошибка #23 §cВведен не действи�
 
 DISABLE_COMMAND_IN_GAME: '%s§cДанная функция отключена'
 
+STAFFRULES_NEW: '§fНовее правила можете найти здесь §aforum.flycore.ru/staffrules'
+
 BANINFO_NO: '§cИгрок %s не наказан'
 BAN_NAME_1: 'Заблокировала чат'
 BAN_NAME_2: 'Заблокировал чат'
@@ -1509,15 +1455,15 @@ BAN_YOU_RANK: '§cВы не можете наказывать игроков, и
 BAN_HELP: '§cИспользуйте синтаксис -v, для обхода'
 BAN_ME: '§cВы не можете наказать сами себя'
 
-KICK_REASON: "§e§l§nFlyCore§7\n\n§cВас выкинули с сервера\n\n§fДата: §7%s\n\n§fВы: %s\n§fКикнул: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BAN_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BAN_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BAN_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BAN_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BANIP_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BANIP_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BANIP_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BANIP_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
+KICK_REASON: "§e§l§nFlyCore§7\n\n§cВас выкинули с сервера\n\n§fДата: §7%s\n\n§fВы: %s\n§fКикнул: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BAN_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BAN_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BAN_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BAN_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BANIP_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BANIP_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BANIP_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
+BANIP_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловатьнаказание можно на форуме:\n§b§nforum.flycore.ru"
 MUTE_NEVER_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован навсегда за %s\n \n §7Заблокировал: %s\n\n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
 MUTE_NEVER_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
 MUTE_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
@@ -1549,7 +1495,7 @@ REPORT_ALREADY_SENT: '§cВы уже отправляли жалобу на да
 REPORT_ME: '§cВы не можете пожаловатся на самого себя'
 REPORT_FOR_PERSONAL:
  - '§cВы не можете пожаловатся на персонал сервера'
-# - '§cДля этого существует обсуждение в группе https://vk.com/topic-155142790_38895715'
+ - '§cДля этого существует обсуждение в группе https://vk.com/topic-155142790_38895715'
 REPORT_FOR_TESTER: '§6Античит §8| §fДанный игрок не читер'
 REPORT_SENT: '§eЖалоба отправлена. Чтобы ее рассмотрели модераторы необходимо, чтобы еще один человек подал жалобу на игрока'
 REPORT_TWO_SENT: '§cЖалобы §8| §fЖалоба отправлена. Вы не первый, кто жаловался на этого игрока, наши §9модераторы§f были оповещены'
@@ -1641,7 +1587,7 @@ WHOIS_OFFLINE: |-
  §f - Язык: §c%s
  §f - Серверные данные: §c%s
 RULES: '§6Сервер §8| §fПолный список праавил сервера -'
-RULES_2: '§dhttp://flycore.ru/rules'
+RULES_2: '§dhttp://www.flycore.ru/rules'
 RULES_HOVER: '§fнажмите сюда\n§fдля перехода по ссылке'
 
 FIREWORK: '§aСалют!'
@@ -1735,7 +1681,7 @@ TRAINING_SKIP_MSG_15_SUBTITLE: '§fтогда войдите в §2Профил�
 TRAINING_SKIP_MSG_16_TITLE: '§fЕсли Вы хотите прочитать информацию о сервере,'
 TRAINING_SKIP_MSG_16_SUBTITLE: '§fтогда зайдите в §2Профиль ▸ Информация'
 TRAINING_SKIP_MSG_17_TITLE: '§fВам понравился сервер, или Вы хотите его поддержать?'
-TRAINING_SKIP_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dmg.flycore.ru'
+TRAINING_SKIP_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dwww.flycore.ru'
 TRAINING_SKIP_MSG_18_TITLE: ''
 TRAINING_SKIP_MSG_18_SUBTITLE: '§7И конечно самое главное...'
 TRAINING_SKIP_MSG_19_TITLE: '§fИнтересны §5разработки§f, или есть вопросы по плагинам§f/§6форуму§f?'
@@ -1783,7 +1729,7 @@ TIME_TO: '§6Сервер §8| §fИгрок %s§f провел - §a%s§f вр�
 
 MONEY_AND_GOLDS: '§6Баланс §8| §fНа вашем аккаунте §a%s §f%s, §e%s §f%s'
 
-BUY_BROADCAST: '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n               §c§lВНИМАНИЕ!\n    §fИгрок %s §fподдержал нас!\n    §bСпасибо за покупку %s\n    §fХотите помочь? §6mg.flycore.ru §7[жми]\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+BUY_BROADCAST: '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n               §c§lВНИМАНИЕ!\n    §fИгрок %s §fподдержал нас!\n    §bСпасибо за покупку %s\n    §fХотите помочь? §6www.flycore.ru §7[жми]\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 BUY_THANKS: |-
  §6Сервер §8| §fСпасибо за приобритение привилегии %s
  §fна нашем сервере. Теперь Вам открыты новые возможности;
@@ -1797,8 +1743,8 @@ BUY_THANKS: |-
   
  §fЕсли у вас остались вопросы, можете обратиться в §n/ask§f;
  §fили в нашу группу сервера §9§nvk.me/FlyCore
-BUY_NOT_STORE: "§cНа Ваш аккаунт не было приобретено ни одной привилегии;\nиспользуйте основной аккаунт, или приобретите привилегию на нашем сайте mg.flycore.ru;\nчтобы получить возможность создавать мульти-аккаунт"
-BUY_MAX_NOT_MULTIACCOUNT: "§cУ вас было создано максимальное количество доступных мулти-аккаунтов\nиспользуйте их, или приобретите привилегию на сайте mg.flycore.ru\nдля поднятия лимита на создание мульти-аккаунтов"
+BUY_NOT_STORE: "§cНа Ваш аккаунт не было приобретено ни одной привилегии;\nиспользуйте основной аккаунт, или приобретите привилегию на нашем сайте www.flycore.ru;\nчтобы получить возможность создавать мульти-аккаунт"
+BUY_MAX_NOT_MULTIACCOUNT: "§cУ вас было создано максимальное количество доступных мулти-аккаунтов\nиспользуйте их, или приобретите привилегию на сайте www.flycore.ru\nдля поднятия лимита на создание мульти-аккаунтов"
 BUY_MAX_MULTIACCOUNT: "§cВы исчерпали лимит создания мульти-аккаунтов!\nВаш доступный мульти-аккаунт для входа: %s"
 
 PLAYER_IS_BANNED: '§cОшибка #5, Пожалуйста сделайте скриншот и сообщите vk.me/flycore'
@@ -2151,11 +2097,11 @@ NEWS_LUCKYWARS: '§fНовый §bСундук удачи'
 NEWS_PARKOUR: '§fНовый §bСундук удачи'
 NEWS_CREATIVE: '§fНовый §bСундук удачи'
 NEWS_ANARCHY: '§fНовый §bСундук удачи'
-MESSAGES_21_BROADCAST: "\n §8| §fВсе арены §cпереполнены§f, не хватает слотов?\n §8| §fПриобретите §e§lGOLD§f на сайте §dmg.flycore.ru\n §8| §fи данная проблема будет решена\n"
+MESSAGES_21_BROADCAST: "\n §8| §fВсе арены §cпереполнены§f, не хватает слотов?\n §8| §fПриобретите §e§lGOLD§f на сайте §dwww.flycore.ru\n §8| §fи данная проблема будет решена\n"
 MESSAGES_21_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_20_BROADCAST: "\n §8| §fПокупай §e§lGOLD§f по очень §dпривлекательной§f цене\n §8| §fУже с ней вы получите достойное количество §eвозможностей\n §8| §fкоторые сделают вашу игру §aинтереснее\n"
 MESSAGES_20_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_19_BROADCAST: "\n §8| §fПривилегия §a§lEMERALD§f дает большое\n §8| §fколичество §bбонусов§f и §eвозможностей§f за умеренную цену.\n §8| §fЗаинтересовало? Покупай на сайте §dmg.flycore.ru\n"
+MESSAGES_19_BROADCAST: "\n §8| §fПривилегия §a§lEMERALD§f дает большое\n §8| §fколичество §bбонусов§f и §eвозможностей§f за умеренную цену.\n §8| §fЗаинтересовало? Покупай на сайте §dwww.flycore.ru\n"
 MESSAGES_19_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_18_BROADCAST: "\n §8| §fДля того, чтобы играть с друзьями\n §8| §fдостаточно просто написать команду §c/party <ник>\n §8| §fИ всех игроков будет перемещать за лидером\n"
 MESSAGES_18_HOVER_BROADCAST: "§fНажмите сюда"
@@ -2163,15 +2109,15 @@ MESSAGES_17_BROADCAST: "\n §8| §fНа сервере есть много ра�
 MESSAGES_17_HOVER_BROADCAST: "§fНажмите сюда для\n§fчтобы открыть меню"
 MESSAGES_16_BROADCAST: "\n §8| §5§lENDERMAN§f - лучшая привилегия сервера,\n §8| §fсочетает в себе максимальное количество\n §8| §eвозможностей§f и §dбонусов§f для комфортной игры\n"
 MESSAGES_16_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_15_BROADCAST: "\n §8| §f§a§lEMERALD§f - самая популярная привилегия\n §8| §fкоторая сочетает в себе §aоптимальную цену§f и\n §8| §eвозможности§f, покупка на сайте §dmg.flycore.ru\n"
+MESSAGES_15_BROADCAST: "\n §8| §f§a§lEMERALD§f - самая популярная привилегия\n §8| §fкоторая сочетает в себе §aоптимальную цену§f и\n §8| §eвозможности§f, покупка на сайте §dwww.flycore.ru\n"
 MESSAGES_15_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_14_BROADCAST: "\n §8| §fВы уже купили §eдонат§f, а теперь хотите статус §bповыше§f?\n §8| §CТолько у нас§f вы можете приобрести новую\n §8| §fпривилегию с доплатой на сайте §dmg.flycore.ru\n"
+MESSAGES_14_BROADCAST: "\n §8| §fВы уже купили §eдонат§f, а теперь хотите статус §bповыше§f?\n §8| §CТолько у нас§f вы можете приобрести новую\n §8| §fпривилегию с доплатой на сайте §dwww.flycore.ru\n"
 MESSAGES_14_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_13_BROADCAST: "\n §8| §fЕсли вы увидели §cнарушителя§f или §cчитера§f, то\n §8| §fВоспользуйтесь командой §c/report <ник>\n §8| §fи вашу §eжалобу§f рассмотрят в режиме реального времени\n"
 MESSAGES_13_HOVER_BROADCAST: "§fНажмите сюда"
 MESSAGES_12_BROADCAST: "\n §8| §C⚠ Внимание §fХотите узнать чужую статистику?\n §8| §fДля §b§lDIAMOND§f и выше доступна\n §8| §fкоманда §c/stats <ник игрока>\n"
 MESSAGES_12_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_11_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6§lYouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dmg.flycore.ru\n"
+MESSAGES_11_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6§lYouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dwww.flycore.ru\n"
 MESSAGES_11_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_10_BROADCAST: "\n §8| §fХотите обеспечить §aбезопасность§f своему аккаунту?\n §8| §fТогда привяжите его к вашей почте\n §8| §fкомандой §c/email add <почта> <повтор почты>\n"
 MESSAGES_10_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
@@ -2179,11 +2125,11 @@ MESSAGES_9_BROADCAST: "\n §8| §fПоявились §eвопросы§f, на 
 MESSAGES_9_HOVER_BROADCAST: "§fНажмите сюда"
 MESSAGES_8_BROADCAST: "\n §8| §fХотите §dуникальные§f, скрытые §eфункции§f и §aвозможности§f?\n §8| §fПокупайте донат у нас и получайте доступ к\n §8| §fдонат-меню командой §c/donatemenu\n"
 MESSAGES_8_HOVER_BROADCAST: "§fНажмите сюда для\n§fчтобы открыть меню"
-MESSAGES_7_BROADCAST: "\n §8| §fУ вас §cпроблемы§f или вы нашли какой-то §cбаг§f?\n §8| §fНапишите нам в группу §bvk.com/flycore\n §8| §fи вам §aобязательно§f ответят в ближайшее время\n"
+MESSAGES_7_BROADCAST: "\n §8| §fУ вас §cпроблемы§f или вы нашли какой-то §cбаг§f?\n §8| §fНапишите нам в группу §bvk.com/topic-155142790_38911037\n §8| §fи вам §aобязательно§f ответят в ближайшее время\n"
 MESSAGES_7_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_6_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/flycore\n"
 MESSAGES_6_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_5_BROADCAST: "\n §8| §fХотите обсудить свою §aпобеду§f или оспорить §cпроигрыш§f,\n §8| §fа может ты Хотите найти новых §eдрузей§f?\n §8| §fЗаходи на наш форум §dmg.flycore.ru\n"
+MESSAGES_5_BROADCAST: "\n §8| §fХотите обсудить свою §aпобеду§f или оспорить §cпроигрыш§f,\n §8| §fа может ты Хотите найти новых §eдрузей§f?\n §8| §fЗаходи на наш форум §dforum.flycore.ru\n"
 MESSAGES_5_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 #MESSAGES_4_BROADCAST: "\n §8| §e✰ Конкурс ✰ §fГолосуй за сервер\n §8| §fпо ссылкам: §dmonitoringminecraft.ru/top/FilkWorld §fи §dmc-servera.ru/79129\n §8| §fПодробности в нашей группе §avk.com/flycore\n"
 #MESSAGES_4_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
@@ -2191,7 +2137,7 @@ MESSAGES_4_BROADCAST: "\n §8| §fПоявились §eвопросы§f, на 
 MESSAGES_4_HOVER_BROADCAST: "§fНажмите сюда"
 MESSAGES_3_BROADCAST: "\n §8| §fЕсли вы увидели §cнарушителя§f или §cчитера§f, то\n §8| §fВоспользуйтесь командой §c/report <ник>\n §8| §fи вашу §eжалобу§f рассмотрят в режиме реального времени\n"
 MESSAGES_3_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_2_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6§lYouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dmg.flycore.ru\n"
+MESSAGES_2_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6§lYouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dwww.flycore.ru\n"
 MESSAGES_2_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
 MESSAGES_1_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/flycore\n"
 MESSAGES_1_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
@@ -2235,7 +2181,7 @@ TRADE_READY: '§aДанный игрок готов к обмену'
 TRADE_NO_READY: '§cДанный игрок не готов к обмену'
 TRADE_READY_NAME: '§aГотов'
 TRADE_NO_READY_NAME: '§cНе готов'
-QUESTION_MSG_INFO: "\n§6Примеры §8| §fХотите получить §6монеты§f?\n§6Примеры §8| §fТогда решите небольшой пример.\n§6Примеры §8| §fСколько будет §6%s§f+§6%s§f = §a/goto <ваш ответ>\n"
+QUESTION_MSG_INFO: "\n§6Примеры §8| §fХотите получить §6монеты§f или §eзолото?\n§6Примеры §8| §fТогда решите небольшой пример.\n§6Примеры §8| §fСколько будет §6%s§f+§6%s§f = §a/goto <ваш ответ>\n"
 QUESTION_HOVER_MSG_INFO: '§fНажмите сюда,\n§fили напишите /goto <ответ>\n§fЧтоб ответить на вопрос'
 GOTO_FORMAT: '/goto <ваш ответ>'
 QUESTION_NOT_FOUND: '§cНа вопрос уже ответил кто-то другой, подождите пока появится новый'
@@ -2319,7 +2265,7 @@ GUI_PROFILE_LEVEL_LORE:
 - ''
 - '%s'
 
-LEVEL_OPEN: '§e▸ Получить награду'
+LEVEL_OPEN: '§e▸ Открыть меню наград'
 LEVEL_NO: '§c▸ Для открытия нужен 5 уровень'
 
 GUI_PROFILE_STATS_LORE:
@@ -2422,7 +2368,6 @@ GUI_GOLD_ALL_LORE:
 - ' §8▪ §7Префикс §e§lGOLD'
 - ' §8▪ §7Приветствие при входе'
 - ' §8▪ §7Резервный слот на всех аренах'
-- ' §8▪ §7Доступен х3 прыжок во всех лобби'
 - ' §8▪ §7Возможность писать заглавными БУКВАМИ'
 - ' §8▪ §7Множитель монет §fx1.5'
 - ' §8▪ §7Доступена отправка писем - §f/mail send <ник> <сообщение>'
@@ -2468,7 +2413,6 @@ GUI_EMERALD_ALL_LORE:
 - ' §8▪ §7Префикс §a§lEMERALD'
 - ' §8▪ §7Приветствие при входе'
 - ' §8▪ §7Резервный слот на всех аренах'
-- ' §8▪ §7Доступен х3 прыжок во всех лобби(если отключить полет)'
 - ' §8▪ §7Доступен режим полета во всех лобби'
 - ' §8▪ §7Возможность писать заглавными БУКВАМИ'
 - ' §8▪ §7Приятная музыка в лобби ожидания игры'
@@ -2525,7 +2469,6 @@ GUI_GOLEM_ALL_LORE:
 - ' §8▪ §7Префикс §f§lGOLEM'
 - ' §8▪ §7Приветствие при входе'
 - ' §8▪ §7Резервный слот на всех аренах'
-- ' §8▪ §7Доступен х3 прыжок во всех лобби(если отключить полет)'
 - ' §8▪ §7Доступен режим полета во всех лобби'
 - ' §8▪ §7Возможность писать заглавными БУКВАМИ'
 - ' §8▪ §7Приятная музыка в лобби ожидания игры'
@@ -2587,7 +2530,6 @@ GUI_DIAMOND_ALL_LORE:
 - ' §8▪ §7Префикс §b§lDIAMOND'
 - ' §8▪ §7Приветствие при входе'
 - ' §8▪ §7Резервный слот на всех аренах'
-- ' §8▪ §7Доступен х3 прыжок во всех лобби(если отключить полет)'
 - ' §8▪ §7Доступен режим полета во всех лобби'
 - ' §8▪ §7Возможность создания гильдии'
 - ' §8▪ §7Возможность писать заглавными БУКВАМИ'
@@ -2665,7 +2607,6 @@ GUI_ENDERMAN_ALL_LORE:
 - ' §8▪ §7Возможность создания гильдии'
 - ' §8▪ §7Огромное кол-во гаджетов в лобби'
 - ' §8▪ §7Резервный слот на всех аренах'
-- ' §8▪ §7Доступен х3 прыжок во всех лобби(если отключить полет)'
 - ' §8▪ §7Доступен режим полета во всех лобби'
 - ' §8▪ §7Нет никаких ограничений на чат'
 - ' §8▪ §7Возможность писать заглавными БУКВАМИ'
@@ -2775,17 +2716,17 @@ GUI_INFO_HELP_LORE:
 
 GUI_INFO_DONATE_LORE:
 - '§7Список привилегий:'
-- ' §8▪ §e§lGOLD §7- §f15 Рублей'
-- ' §8▪ §a§lEMERALD §7- §f76 Рублей'
-- ' §8▪ §f§lGOLEM §7- §f129 Рублей'
-- ' §8▪ §b§lDIAMOND §7- §f258 Рублей'
-- ' §8▪ §5§lENDERMAN §7- §f480 Рублей'
+- ' §8▪ §e§lGOLD §7- §f130 Рублей'
+- ' §8▪ §a§lEMERALD §7- §f180 Рублей'
+- ' §8▪ §f§lGOLEM §7- §f230 Рублей'
+- ' §8▪ §b§lDIAMOND §7- §f340 Рублей'
+- ' §8▪ §5§lENDERMAN §7- §f490 Рублей'
 - ''
 - '§7Подробное описание привилегий можно'
 - '§7найти в разделе §fПрофиль ▸ Привилегии'
 - ''
 - '§7Приобрести привилегии можно'
-- '§7на сайте §dmg.flycore.ru'
+- '§7на сайте §dwww.flycore.ru'
 
 GUI_INFO_FRIEND_LORE:
 - '§7Для комфортной игры с друзьями'
@@ -2841,11 +2782,11 @@ GUI_INFO_MESSAGES_LORE:
 - '§7заблокированных вами игроков'
 
 GUI_INFO_LINKS_LORE:
-- '§7Адрес сервера: §eflycore.ru'
+- '§7Адрес сервера: §eplay.flycore.ru'
 - ''
 - '§7Группа Вконтакте: §fvk.com/flycore'
 - ''
-- '§7Сайт: §fmg.flycore.ru'
+- '§7Сайт: §fwww.flycore.ru'
 - '§7Форум: §fforum.flycore.ru'
 - ''
 - '§7Почта: §dktemprojects@mail.ru'
@@ -3240,7 +3181,7 @@ GUI_REWARDS_INFO_LORE:
 - ' §8▪ §b§lDIAMOND§7 и §5§lENDERMAN §7- §e2.0x'
 - ''
 - '§7Приобрести привилегии можно'
-- '§7на сайте §dmg.flycore.ru'
+- '§7на сайте §dwww.flycore.ru'
 
 GUI_WINREWARDS_NAME: 'Награды (детальная информация)'
 GUI_REWARDS_SKYWARS: '§bSkyWars'
@@ -3717,7 +3658,7 @@ GUI_GAMES_DONATE: '§bПривилегии'
 GUI_GAMES_LOBBY: '§bГлавное лобби'
 GUI_GAMES_NAME: 'Выбор режима'
 
-GUI_REWARDS_NAME: 'Награды'
+GUI_REWARDS_NAME: 'Профиль ▸ Награды'
 GUI_REWARDS_1: '§eЕжедневные награды'
 GUI_REWARDS_1_LORE:
 - ''
@@ -3770,7 +3711,7 @@ GUI_REWARDS_5_LORE:
 - ' §8• §a7 рублей§7 = 500 монеток'
 - ' §8• §a3 рубля§7 = 1 ключ'
 - ''
-- '§7Магазин: §emg.flycore.ru'
+- '§7Магазин: §ewww.flycore.ru'
 GUI_REWARDS_ALREADY:
 - ''
 - '§7Можно будет получить через:'
@@ -4954,7 +4895,7 @@ GUI_CASES_INFO2_LORE:
 - '§7Если же Вам не хватает ключей,'
 - '§7то Вы всегда их можете купить за монеты'
 - '§7нажав §cПКМ §7по нужному ключу или'
-- '§7на нашей сайте §fmg.flycore.ru'
+- '§7на нашей сайте §fwww.flycore.ru'
 - '§7Подробнее прочитать о наградах,'
 - '§7Вы можете нажав на этот предмет.'
 - ''
@@ -4973,7 +4914,7 @@ GUI_CASES_DEFAULT_LORE:
 - '§7небольшого кол-ва монет и опыта'
 - ''
 - '§cВнимание! При выбивании уже активированного'
-- '§cбустера вы получите от 500 до 1,500 монет!'
+- '§cбустера вы получите от 40 до 100 золота!'
 GUI_CASES_DONATE_NAME: '§eДонатный ключ'
 GUI_CASES_DONATE_LORE:
 - ''
@@ -4996,13 +4937,7 @@ GUI_CASES_COSMETIC_LORE:
 - '§7доступны, во всех лобби сервера'
 - ''
 - '§cВнимание! При выбивании уже существующего'
-- '§cгаджета вы получите от 1,000 до 1,500 монет!'
-GUI_CASES_ULTRA_NAME: '§aУльтра ключ'
-GUI_CASES_ULTRA_LORE:
-- ''
-- '§7Используется для получения'
-- '§7большого кол-ва опыта, монет,'
-- '§7а также небольшого кол-ва золота'
+- '§cгаджета вы получите от 1000 до 1900 монет!'
 GUI_CASES_INFO_TO_LORE:
 - ''
 - '§7Доступных ключей: §a%s'
